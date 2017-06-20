@@ -1215,6 +1215,7 @@ object {
 }
 
 .pages-items li {
+	font-family: "noto sans";
 	font-size: 12px;
 }
 
@@ -1223,6 +1224,7 @@ object {
 }
 
 .platform-items li {
+	font-family: "Noto Sans";
 	font-size: 12px;
 }
 
@@ -1237,9 +1239,11 @@ object {
 }
 
 .platform-list span {
+	font-family: "Noto Sans";
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .contact-items {
@@ -1247,12 +1251,14 @@ object {
 }
 
 .contact-items li {
+	font-family: "noto sans";
 	font-size: 12px;
 }
 
 .footer-heading {
 	position: relative;
 	color: white; 
+	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -1271,6 +1277,7 @@ object {
 .footer-heading2 {
 	position: relative;
 	color: white; 
+	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -1278,7 +1285,7 @@ object {
 .footer-heading2:after {
 	color: #8b96ac;
     content: '';
-    width: 55%;
+    width: 65%;
     position: absolute;
     left: 28%;
     bottom: 0px;
@@ -1289,6 +1296,7 @@ object {
 .footer-heading3 {
 	position: relative;
 	color: white; 
+	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -1302,4 +1310,24 @@ object {
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
+}
+
+@media screen and (max-width: 865px){
+	.site-info {
+		height: 900px;
+		background-color: #182e5a;
+	}
+	.grid {
+  		position: relative;
+	}
+	.footer-heading, .footer-heading2, .footer-heading3{
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.pages-items, .platform-items, .contact-items{
+		margin-top: -4%;
+	}
+
 }
