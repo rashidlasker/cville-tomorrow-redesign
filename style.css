@@ -1206,3 +1206,100 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.pages-items {
+	list-style: none;
+}
+
+.pages-items li {
+	font-size: 12px;
+}
+
+.platform-items {
+	list-style: none;
+}
+
+.platform-items li {
+	font-size: 12px;
+}
+
+.platform-items span {
+	font-size: 12px;
+}
+
+.platform-list {
+	position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.platform-list span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.contact-items {
+	list-style: none;
+}
+
+.contact-items li {
+	font-size: 12px;
+}
+
+.footer-heading {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading:after {
+	color: #8b96ac;
+    content: '';
+    width: 50%;
+    position: absolute;
+    left: 50;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.footer-heading2 {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading2:after {
+	color: #8b96ac;
+    content: '';
+    width: 55%;
+    position: absolute;
+    left: 28%;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.footer-heading3 {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading3:after {
+	color: #8b96ac;
+    content: '';
+    width: 33%;
+    position: absolute;
+    left: 25%;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
