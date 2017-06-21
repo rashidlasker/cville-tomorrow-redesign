@@ -52,5 +52,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
+include "topics.php";
 get_sidebar();
 get_footer();
