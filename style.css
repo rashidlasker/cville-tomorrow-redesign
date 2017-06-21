@@ -1558,7 +1558,7 @@ i {
 	width: 40%;
 }
 
-input:focus { 
+input[type="search"]:focus { 
     outline: none !important;
     border-color: #719ECE;
     box-shadow: 0 0 10px #719ECE;

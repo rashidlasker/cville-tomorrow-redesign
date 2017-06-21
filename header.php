@@ -46,57 +46,60 @@
 
 	<header id="masthead" class="site-header" role="banner">
         
-<!-- start desktop nav -->	
-        <div class="banner"></div>
-        <div class="top-nav">
-            <div class="nav-left-container">
-                <!-- <h3 class="nav-search"><img src=""> SEARCH </h3> -->
-                <section id="search-2" class="widget widget_search">
-	                <form role="search" method="get" class="search-form" action="http://localhost/cville-tomorrow-redesign/">
-						<input type="submit" class="search-submit nav-submit" value="" style="background:url(<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png);"/>
-						<label>
-							<span class="screen-reader-text">Search for:</span>
-							<input type="search" class="search-field nav-search-label" placeholder="" value="" name="s" />
-						</label>
-						
-					</form>
-				</section>
-            </div><div class="nav-right-container">
-                <?php
-                    wp_nav_menu( array(
-                        'theme_location' => 'menu-2',
-                        'menu_id'        => 'SUB',
-                    ) );
-                ?> 
-            </div>
-        </div>
-        <div class="logo">
-            <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">
-        </div>
-        <div class="top-bar">
-            <h3 class = "nav-date"><?php echo date('l,  F jS, Y'); ?> </h3> 
-            <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
-            <div id="weather"></div>
-            <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
-            <button class="sub-button">SUBSCRIBE</button>
-            
-        </div>
+<!-- start desktop nav -->
+		<div class="desk-nav">
+	        <div class="banner"></div>
+	        <div class="top-nav">
+	            <div class="nav-left-container">
+	                <!-- <h3 class="nav-search"><img src=""> SEARCH </h3> -->
+	                <section id="search-2" class="widget widget_search">
+		                <form role="search" method="get" class="search-form" action="http://localhost/cville-tomorrow-redesign/">
+							<input type="submit" class="search-submit nav-submit" value="" style="background:url(<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png);"/>
+							<label>
+								<span class="screen-reader-text">Search for:</span>
+								<input type="search" class="search-field nav-search-label" placeholder="" value="" name="s" />
+							</label>
+							
+						</form>
+					</section>
+	            </div><div class="nav-right-container">
+	                <?php
+	                    wp_nav_menu( array(
+	                        'theme_location' => 'menu-2',
+	                        'menu_id'        => 'SUB',
+	                    ) );
+	                ?> 
+	            </div>
+	        </div>
+	        <div class="logo">
+	            <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">
+	        </div>
+	        <div class="top-bar">
+	            <h3 class = "nav-date"><?php echo date('l,  F jS, Y'); ?> </h3> 
+	            <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
+	            <div id="weather"></div>
+	            <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
+	            <button class="sub-button">SUBSCRIBE</button>
+	            
+	        </div>
 
-        <div class="bottom-bar">
-            <nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cville-tomorrow-theme' ); ?></button>
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-			?>
-            </nav><!-- #site-navigation -->
-        </div>      
+	        <div class="bottom-bar">
+	            <nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'cville-tomorrow-theme' ); ?></button>
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
+				?>
+	            </nav><!-- #site-navigation -->
+	        </div>      
+        </div>
 <!-- end desktop nav -->
-        
 <!-- start mobile nav -->	
-        
+        <div class="mobile-nav">
+
+        </div>
 
 <!-- end mobile nav -->
               
