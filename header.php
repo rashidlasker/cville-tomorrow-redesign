@@ -50,18 +50,15 @@
         <div class="banner"></div>
         <div class="top-nav">
             <div class="left-container">
-                <h3 class="search"> SEARCH </h3>
-                
+                <h3 class="search"><img src="<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png"> SEARCH </h3>
+            </div><div class="right-container">
+                <?php
+                    wp_nav_menu( array(
+                        'theme_location' => 'menu-2',
+                        'menu_id'        => 'SUB',
+                    ) );
+                ?> 
             </div>
-            
-            <div class="right-container">
-            <?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-2',
-					'menu_id'        => 'SUB',
-				) );
-			?> 
-        </div>
         </div>
         <div class="logo">
             <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">

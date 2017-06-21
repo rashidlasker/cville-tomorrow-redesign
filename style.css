@@ -580,6 +580,7 @@ h2{
 /*NavBar Topics*/
 h3{
 	font-size: 12pt;
+    font-weight: normal;
 }
 
 h4, h5{
@@ -1340,6 +1341,12 @@ object {
 	color: #FDB717;
 }
 
+#primary-menu .menu-item:last-child{
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
 .menu-bottom-bar-container li { 
     border-right: 1px solid #182E5A; 
     padding-right: 9px;
@@ -1489,6 +1496,7 @@ i {
     margin: 0 auto;
 }
 
+/*************SUBSCRIBE**************/
 .menu-item a {
 	text-decoration: none;
 }
@@ -1499,7 +1507,72 @@ i {
     padding: 0;
     display:inline-block;
     width: 50%;
+    margin-left: 10px;
 }
 
-.left-container { 
-width: 50%;}
+
+.left-container {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding-left: 5%;
+}
+
+.right-container {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.right-container ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.magnifying-glass {
+    display: inline-block;
+}
+
+.search img {
+    height: 15px;
+    max-width: 100%;
+    margin-right: 3px;
+}
+
+/*************NAV RESP**************/
+@media only screen and (max-width: 1114px) {
+    .menu-item a {
+        font-size: 10pt;  
+	}
+	
+    .menu-item a: visited {
+        font-size: 10pt;  
+	}
+}
+@media only screen and (max-width: 961px) {
+    .menu-item a {
+        font-size: 9pt;  
+	}
+
+    .menu-item a: visited {
+        font-size: 9pt;  
+	}
+
+    .search h3 {
+        font-size: 9pt;
+    }
+    
+    .search img {
+        height: 12px;
+        max-width: 100%;
+        margin-right: 3px;
+	}
+}
+    
+    
+
+/*--------------------------------------------------------------
+## Nav
+--------------------------------------------------------------*/
