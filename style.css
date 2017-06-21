@@ -1336,6 +1336,10 @@ object {
     border-style: solid;
 }
 
+.pages-items, .platform-items, .contact-items {
+		-webkit-padding-start: 0px;
+	}
+
 .footer-heading, .footer-heading2, .footer-heading3 {
 	margin-bottom: 20px;
 }
@@ -1349,10 +1353,6 @@ object {
 	p {
 		margin: 0;
 	}
-	.contact-items, .platform-items, .pages-items {
-		-webkit-padding-start: 0px;
-	}
-
 	.site-info {
 		height: 900px;
 		background-color: #182e5a;
