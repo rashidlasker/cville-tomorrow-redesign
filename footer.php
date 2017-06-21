@@ -59,11 +59,11 @@
 						    </ul>
 						   		<div class='social-media-imgs'>
 							    <img class='fb-img' src="<?php echo bloginfo('template_url'); ?>/footer-images/facebook.PNG" alt="fb image" >
-							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/twitter.PNG">
+							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/twitter.png">
 							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/email.png" style="width: 32px;height:32px">
-							      <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/linkedin.PNG">
-							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/google-plus.PNG">
-							      <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/pinterest.PNG">
+							      <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/linkedin.png">
+							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/google-plus.png">
+							      <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/pinterest.png">
 						      </div>
 						</div>
 
