@@ -53,7 +53,7 @@
 					<?php endwhile; ?>
 				</div>
 			</div><!-- Top Story Section --><div class="grid__col topStory"><div class="topHeading">TOP STORY</div><img class="topImg" src="<?php bloginfo('template_url'); ?>/pics/rapist.png" /><div class="topText"><a>Former U.Va student charged with rape</a></div></div><!-- Calendar Section --><div class="grid__col calendarSect"><span class="calHeading">Calendar</span><hr class="yellowLine line2">This is the calendar section lol</div>
-
+				<div class="moreArtBtn"></div>
 			<div class="ttffAd"></div>
 		</main>
 	</div>
