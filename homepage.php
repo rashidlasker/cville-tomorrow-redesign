@@ -52,6 +52,7 @@
 						<br>
 					<?php endwhile; ?>
 				</div>
+				<div class="moreArtBtn"></div>
 			</div>
 
 			<!-- Top Story Section -->
