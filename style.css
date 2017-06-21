@@ -1468,7 +1468,7 @@ i {
   border-radius: 5px;
 }
 
-.date {
+.nav-date {
     width: auto;
     padding: 0px;
     margin: 0px;
@@ -1506,27 +1506,32 @@ i {
     margin: 0;
     padding: 0;
     display:inline-block;
-    width: 50%;
     margin-left: 10px;
 }
 
 
-.left-container {
+/*************TOPNAV**************/
+.top-nav{
+	margin-top: 20px;
+}
+
+.nav-left-container {
     width: 50%;
     display: inline-block;
     margin: 0;
     padding-left: 5%;
 }
 
-.right-container {
+.nav-right-container {
     display: inline-block;
     width: 50%;
     margin: 0;
     text-align: right;
     padding-right: 5%;
+    vertical-align: top;
 }
 
-.right-container ul {
+.nav-right-container ul {
     margin-left: 0;
     padding-left: 0;
 }
@@ -1535,10 +1540,38 @@ i {
     display: inline-block;
 }
 
-.search img {
+.nav-search img {
     height: 15px;
     max-width: 100%;
     margin-right: 3px;
+}
+
+.nav-search-label{
+	vertical-align: middle;
+	border-radius: 200px !important;
+	padding: 0 !important;
+	padding-left: 5px !important;
+	font-size: 12px !important;
+	font-family: 'Noto Sans', sans-serif !important;
+	color: #182E5A !important;
+	border-color: #182E5A !important;
+	width: 40%;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.nav-submit{
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	width: 18px !important;
+	height: 18px !important;
+	padding: 0 !important;
+	border-width: 0 !important;
+	vertical-align: middle;
 }
 
 /*************NAV RESP**************/
@@ -1546,7 +1579,7 @@ i {
     .menu-item a {
         font-size: 10pt;  
 	}
-	
+
     .menu-item a: visited {
         font-size: 10pt;  
 	}
@@ -1560,11 +1593,11 @@ i {
         font-size: 9pt;  
 	}
 
-    .search h3 {
+    .nav-search h3 {
         font-size: 9pt;
     }
     
-    .search img {
+    .nav-search img {
         height: 12px;
         max-width: 100%;
         margin-right: 3px;
