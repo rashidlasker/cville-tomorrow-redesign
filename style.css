@@ -1423,6 +1423,7 @@ body {
 .latestNews {
 	padding: 30px 0 0 0;
 	width: 28.55%;
+	position: relative;
 }
 .topStory {
 	padding: 0;
@@ -1508,6 +1509,22 @@ body {
 	font-size: 36px;
 	line-height: 1.2;
 	font-weight: bold;
+}
+.moreArtBtn {
+	background-color: red;
+	position: absolute;
+	bottom: 10px;
+	width: 140px;
+	height: 35px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.moreArtText {
+	width: 130px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 @media (max-width: 1475px) {
 	.latTitle {
