@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Sans" rel="stylesheet">
 
 <?php wp_head(); ?>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
 
     <script> // v3.1.0
@@ -49,9 +49,19 @@
 <!-- start desktop nav -->	
         <div class="banner"></div>
         <div class="top-nav">
-            <div class="left-container">
-                <h3 class="search"><img src="<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png"> SEARCH </h3>
-            </div><div class="right-container">
+            <div class="nav-left-container">
+                <!-- <h3 class="nav-search"><img src=""> SEARCH </h3> -->
+                <section id="search-2" class="widget widget_search">
+	                <form role="search" method="get" class="search-form" action="http://localhost/cville-tomorrow-redesign/">
+						<input type="submit" class="search-submit nav-submit" value="" style="background:url(<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png);"/>
+						<label>
+							<span class="screen-reader-text">Search for:</span>
+							<input type="search" class="search-field nav-search-label" placeholder="" value="" name="s" />
+						</label>
+						
+					</form>
+				</section>
+            </div><div class="nav-right-container">
                 <?php
                     wp_nav_menu( array(
                         'theme_location' => 'menu-2',
@@ -64,7 +74,7 @@
             <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">
         </div>
         <div class="top-bar">
-            <h3 class = "date"><?php echo date('l,  F jS, Y'); ?> </h3> 
+            <h3 class = "nav-date"><?php echo date('l,  F jS, Y'); ?> </h3> 
             <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
             <div id="weather"></div>
             <h3>&nbsp&nbsp|&nbsp&nbsp</h3>

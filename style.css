@@ -579,7 +579,7 @@ h2{
 }
 /*NavBar Topics*/
 h3{
-	font-size: 12pt;
+	font-size: 10pt;
     font-weight: normal;
 }
 
@@ -1209,6 +1209,103 @@ object {
 }
 
 /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.pages-items {
+	list-style: none;
+}
+
+.pages-items li {
+	font-size: 12px;
+}
+
+.platform-items {
+	list-style: none;
+}
+
+.platform-items li {
+	font-size: 12px;
+}
+
+.platform-items span {
+	font-size: 12px;
+}
+
+.platform-list {
+	position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.platform-list span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.contact-items {
+	list-style: none;
+}
+
+.contact-items li {
+	font-size: 12px;
+}
+
+.footer-heading {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading:after {
+	color: #8b96ac;
+    content: '';
+    width: 50%;
+    position: absolute;
+    left: 50;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.footer-heading2 {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading2:after {
+	color: #8b96ac;
+    content: '';
+    width: 55%;
+    position: absolute;
+    left: 28%;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+.footer-heading3 {
+	position: relative;
+	color: white; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer-heading3:after {
+	color: #8b96ac;
+    content: '';
+    width: 33%;
+    position: absolute;
+    left: 25%;
+    bottom: 0px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+/*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
 .main-navigation {
@@ -1371,7 +1468,7 @@ i {
   border-radius: 5px;
 }
 
-.date {
+.nav-date {
     width: auto;
     padding: 0px;
     margin: 0px;
@@ -1412,22 +1509,29 @@ i {
     margin-left: 10px;
 }
 
-.left-container {
+
+/*************TOPNAV**************/
+.top-nav{
+	margin-top: 20px;
+}
+
+.nav-left-container {
     width: 50%;
     display: inline-block;
     margin: 0;
     padding-left: 5%;
 }
 
-.right-container {
+.nav-right-container {
     display: inline-block;
     width: 50%;
     margin: 0;
     text-align: right;
     padding-right: 5%;
+    vertical-align: top;
 }
 
-.right-container ul {
+.nav-right-container ul {
     margin-left: 0;
     padding-left: 0;
 }
@@ -1436,10 +1540,33 @@ i {
     display: inline-block;
 }
 
-.search img {
-    height: 15px;
-    max-width: 100%;
-    margin-right: 3px;
+
+.nav-search-label{
+	vertical-align: middle;
+	border-radius: 200px !important;
+	padding: 0 !important;
+	padding-left: 5px !important;
+	font-size: 12px !important;
+	font-family: 'Noto Sans', sans-serif !important;
+	color: #182E5A !important;
+	border-color: #182E5A !important;
+	width: 40%;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.nav-submit{
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+	width: 18px !important;
+	height: 18px !important;
+	padding: 0 !important;
+	border-width: 0 !important;
+	vertical-align: middle;
 }
 
 /*************NAV RESP**************/
@@ -1476,11 +1603,11 @@ i {
 
 @media only screen and (max-width: 961px) {
      .menu-item a {
-        font-size: 8pt;  
+        font-size: 9pt;  
     }
     
     .menu-item a: visited {
-        font-size: 8pt;  
+        font-size: 9pt;  
     }
     
     #weather {
@@ -1492,7 +1619,7 @@ i {
     }
     
     .top-bar h3 {
-        font-size: 8pt;
+        font-size: 9pt;
     }
     
     .top-bar{
@@ -1508,7 +1635,7 @@ i {
   
 }
     
-@media only screen and (max-width: 806px) {
+@media only screen and (max-width: 883px) {
      .menu-item a {
         font-size: 7pt;  
     }
@@ -1535,15 +1662,20 @@ i {
     
     .logo img {
         height: 60px;
+    }
+        
+    .nav-search img {
+        height: 10px;
+  }
   
 }
     
 
-@media only screen and (max-width: 706px) {
+@media only screen and (max-width: 733px) {
      .menu-item a {
         font-size: 6pt;  
     }
-    
+
     .menu-item a: visited {
         font-size: 6pt;  
     }
@@ -1566,10 +1698,26 @@ i {
     
     .logo img {
         height: 50px;
-  
+    }
+    
+    .nav-search-label{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        font-size: 8px !important;
+        width: 50%;
+    }
+
+     .nav-submit{
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        width: 10px !important;
+        height: 10px !important;
+        padding: 0 !important;
+        border-width: 0 !important;
+        vertical-align: middle;
+    }
+
 }
-
-
 
     
     
@@ -1577,4 +1725,3 @@ i {
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
-
