@@ -1210,8 +1210,15 @@ object {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer-bg {
+	height: 350px; 
+	width: 100%; 
+	background-color: #182e5a;
+}
 .pages-items {
 	list-style: none;
+	color: white; 
+	margin: 0 auto
 }
 
 .pages-items li {
@@ -1219,8 +1226,12 @@ object {
 	font-size: 12px;
 }
 
+.pages-list-items {
+	padding-left: 60px;
+}
 .platform-items {
 	list-style: none;
+	margin: 0;
 }
 
 .platform-items li {
@@ -1233,7 +1244,6 @@ object {
 }
 
 .platform-list {
-	position: relative;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -1248,11 +1258,21 @@ object {
 
 .contact-items {
 	list-style: none;
+	color: white;
 }
 
 .contact-items li {
 	font-family: "noto sans";
 	font-size: 12px;
+
+}
+
+.contact-div{
+	padding-left: 60px;
+}
+
+.contact-div ul{
+	margin: 0;
 }
 
 .footer-heading {
@@ -1261,14 +1281,16 @@ object {
 	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .footer-heading:after {
 	color: #8b96ac;
     content: '';
-    width: 50%;
+    width: 30%;
     position: absolute;
-    left: 50;
+    left: 35%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
@@ -1280,14 +1302,16 @@ object {
 	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .footer-heading2:after {
 	color: #8b96ac;
     content: '';
-    width: 65%;
+    width: 60%;
     position: absolute;
-    left: 28%;
+    left: 20%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
@@ -1299,35 +1323,77 @@ object {
 	font-family: "Libre-Baskerville";
 	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .footer-heading3:after {
 	color: #8b96ac;
     content: '';
-    width: 33%;
+    width: 36%;
     position: absolute;
-    left: 25%;
+    left: 33%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
 }
 
-@media screen and (max-width: 865px){
+.footer-heading, .footer-heading2, .footer-heading3 {
+	margin-bottom: 5%;
+}
+
+.social-media-imgs {
+	padding-top: 10%;
+}
+
+@media screen and (max-width: 1098px){
+
+	p {
+		margin: 0;
+	}
+	ul {
+		-webkit-padding-start: 0px;
+	}
+
 	.site-info {
-		height: 900px;
+		height: 1100px;
 		background-color: #182e5a;
 	}
 	.grid {
   		position: relative;
 	}
-	.footer-heading, .footer-heading2, .footer-heading3{
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-		max-width: 100%;
+	.pages-list-items {
+		margin: 0 auto;
 	}
-	.pages-items, .platform-items, .contact-items{
-		margin-top: -4%;
+	.pages, .our-platform, .contact {
+		display: block;
+		width: 100%;
+		text-align: center;
 	}
 
+	.pages-list-items {
+		padding-left: 0px;
+	}
+	.platform-list {
+		margin: 0 auto;
+
+	}
+	.contact-div {
+		margin: 0 auto;
+		padding-left: 0px;
+	}
+	.social-media-imgs {
+		vertical-align: middle;
+	}
+
+	.footer-heading, .footer-heading2, .footer-heading3 {
+		margin-bottom: 5%;
+		padding-top: 10%;
+	}
+}
+
+@media screen and (max-width: 365px){
+	.site-info {
+		height: 800px;
+	}
 }
