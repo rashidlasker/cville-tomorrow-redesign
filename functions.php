@@ -46,6 +46,7 @@ function cville_tomorrow_theme_setup() {
 	register_nav_menus( array(
 		'menu-1' => esc_html__( 'Primary', 'cville-tomorrow-theme' ),		
 		'menu-2' => esc_html__( 'SUB', 'cville-tomorrow-theme' ),
+		'menu-3' => esc_html__( 'mobile', 'cville-tomorrow-theme' ),
 
 	) );
 

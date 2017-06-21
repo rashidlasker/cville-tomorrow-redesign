@@ -1308,6 +1308,10 @@ object {
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
+.mobile-nav{
+	display: none;
+}
+
 .main-navigation {
     text-align: center;
     border-top: #182E5A solid 2px;
@@ -1379,7 +1383,7 @@ object {
 
 /*************WEATHER**************/
 
-#weather {
+.weather {
   width: auto;
   margin: 0px auto;
   text-align: center;
@@ -1447,7 +1451,7 @@ i {
 .icon-46:before { content: "U"; }
 .icon-47:before { content: "S"; }
 
-#weather h3 {
+.weather h3 {
   margin: 0;
   color: #676766;
   font-weight: 300;
@@ -1455,12 +1459,12 @@ i {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
-#weather ul {
+.weather ul {
   margin: 0;
   padding: 0;
 }
 
-#weather li {
+.weather li {
   background: #fff;
   background: rgba(255,255,255,0.90);
   padding: 20px;
@@ -1476,7 +1480,7 @@ i {
     color: #676766;
 }
 
-#weather {
+.weather {
     display: inline-block;
 }
 
@@ -1570,7 +1574,7 @@ input[type="search"]:focus {
 }
 
 /*************NAV RESP**************/
-@media only screen and (max-width: 1115px) {
+@media only screen and (max-width: 1150px) {
     .menu-item a {
         font-size: 10pt;  
     }
@@ -1578,7 +1582,7 @@ input[type="search"]:focus {
     .menu-item a: visited {
         font-size: 10pt;  
     }
-    #weather {
+    .weather {
         font-size:20pt;
     }
     
@@ -1601,7 +1605,7 @@ input[type="search"]:focus {
 }
 
 
-@media only screen and (max-width: 961px) {
+@media only screen and (max-width: 1000px) {
      .menu-item a {
         font-size: 9pt;  
     }
@@ -1610,7 +1614,7 @@ input[type="search"]:focus {
         font-size: 9pt;  
     }
     
-    #weather {
+    .weather {
         font-size: 16pt;
     }
     
@@ -1635,16 +1639,16 @@ input[type="search"]:focus {
   
 }
     
-@media only screen and (max-width: 883px) {
+@media only screen and (max-width: 920px) {
      .menu-item a {
         font-size: 7pt;  
     }
     
-    .menu-item a: visited {
+    .menu-item a:visited {
         font-size: 7pt;  
     }
     
-    #weather {
+    .weather {
         font-size: 14pt;
     }
     
@@ -1671,7 +1675,7 @@ input[type="search"]:focus {
 }
     
 
-@media only screen and (max-width: 733px) {
+@media only screen and (max-width: 750px) {
      .menu-item a {
         font-size: 6pt;  
     }
@@ -1680,7 +1684,7 @@ input[type="search"]:focus {
         font-size: 6pt;  
     }
     
-    #weather {
+    .weather {
         font-size: 14pt;
     }
     
@@ -1719,7 +1723,33 @@ input[type="search"]:focus {
 
 }
 
-    
+/**nav becomes mobile**/
+@media only screen and (max-width: 720px) {
+    .desk-nav{
+    	display: none;
+    }
+
+    .mobile-nav{
+    	display: block;
+    }
+
+    .mobile-nav .weather{
+    		width: 20%;
+    		display: inline-block;
+    }
+    .mobile-nav .logo{
+    		width: 60%;
+    		display: inline-block;
+    }
+    .mobile-nav .widget {
+    		width: 10%;
+    		display: inline-block;
+    }
+    .mobile-nav .hamburger {
+    		width: 10%;
+    		display: inline-block;
+    }
+}
     
 
 /*--------------------------------------------------------------
