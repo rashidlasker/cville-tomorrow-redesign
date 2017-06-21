@@ -1349,12 +1349,11 @@ object {
 }
 
 @media screen and (max-width: 1098px){
-
 	p {
 		margin: 0;
 	}
 	.site-info {
-		height: 900px;
+		height: 800px;
 		background-color: #182e5a;
 	}
 	.grid {
@@ -1368,7 +1367,6 @@ object {
 		width: 100%;
 		text-align: center;
 	}
-
 	.pages-list-items {
 		padding-left: 0px;
 	}
@@ -1415,28 +1413,24 @@ body {
 .site-main {
 	font-family: 'Libre-Baskerville';
 }
-.latestNews {
+.topStory, .calendarSect, .latestNews {
 	border: 1px solid black;
-	height: 665px;
+	height: 675px;
 	margin: 0;
-	padding: 30px 0 0 0;
 	text-align: center;
 	color: #182E5A;
-	width: 28.57%;
+}
+.latestNews {
+	padding: 30px 0 0 0;
+	width: 28.55%;
 }
 .topStory {
-	height: 665px;
-	margin: 0;
 	padding: 0;
 	width: 42%;
 }
 .calendarSect {
-	height: 665px;
-	margin: 0;
 	padding: 30px 0 0 0;
-	text-align: center;
-	color: #182E5A;
-	width: 28.57%;
+	width: 28.55%;
 }
 .topHeading {
 	text-align: center;
@@ -1488,7 +1482,7 @@ body {
 	display: none;
 }
 .latTitle {
-	font-size: 17px;
+	font-size: 17.5px;
 	line-height: 116%;
 	cursor: pointer;
 }
@@ -1537,7 +1531,21 @@ body {
 		font-size: 30px;
 	}
 	.topStory, .calendarSect, .latestNews {
-		height: 565px;
+		height: 580px;
+	}
+}
+@media (max-width: 1250px) {
+	.latHeading, .calHeading {
+		font-size: 33px;
+	}
+	.topHeading {
+		font-size: 40px;
+	}
+	.topStory, .calendarSect, .latestNews {
+		height: 580px;
+	}
+	.latestNews, .calendarSect {
+		padding-top: 15px;
 	}
 }
 /*End of Dor's styling*/
