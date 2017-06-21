@@ -579,8 +579,8 @@ h2{
 }
 /*NavBar Topics*/
 h3{
-	font-size: 10pt;
-    font-weight: normal;
+	font-size: 8pt;
+    font-weight: bolder;
 }
 
 h4, h5{
@@ -1310,8 +1310,8 @@ object {
 --------------------------------------------------------------*/
 .main-navigation {
     text-align: center;
-    border-top: #182E5A solid 2px;
-    border-bottom: #FDB717 solid 2px;
+    border-top: #0C2951 solid 2px;
+    border-bottom: #E7E7E7 solid 1px;
 }
 
 .menu-bottom-bar-container li {
@@ -1329,7 +1329,7 @@ object {
 .menu-item a {
 	color: #182E5A;
     font-family: "Libre Baskerville" , serif;
-    font-size:12pt;
+    font-size:9pt;
     
 }
 
@@ -1366,13 +1366,13 @@ object {
     font-style: normal;
 }
 
-.top-bar{
+.top-bar {
     text-align: center;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
-.top-bar h3{
+.top-bar h3 {
     display: inline-block;
     margin: 0;
 }
@@ -1384,8 +1384,7 @@ object {
   margin: 0px auto;
   text-align: center;
   text-transform: uppercase;
-  font-size:12pt;
-  
+  font-size:12pt;  
 }
 
 i {
@@ -1485,15 +1484,17 @@ i {
 .sub-button {
     background-color: #182E5A;
     color: white;
-    font-size:10pt;
+    font-size: 8pt;
     font-family: 'Libre Baskerville', serif;
+    border-radius: 200px;
 }
 
 .logo img {
-    height: 70px;
+    height: 50px;
     width:auto;  
     display: block;
     margin: 0 auto;
+    margin-top: 20px; 
 }
 
 /*************SUBSCRIBE**************/
@@ -1512,7 +1513,9 @@ i {
 
 /*************TOPNAV**************/
 .top-nav{
-	margin-top: 20px;
+	margin-top: 10px;
+    border-bottom: 1px solid #E7E7E7;
+    height: 40px;
 }
 
 .nav-left-container {
@@ -1553,10 +1556,10 @@ i {
 	width: 40%;
 }
 
-input[type="search"]:focus { 
+input:focus { 
     outline: none !important;
     border-color: #719ECE;
-    box-shadow: 0 0 10px #719ECE;
+    /*box-shadow: 0 0 10px #719ECE;*/
 }
 
 .nav-submit{
@@ -1666,7 +1669,25 @@ input[type="search"]:focus {
         
     .nav-search img {
         height: 10px;
-  }
+    }
+    
+    .nav-search-label {
+        padding: 0 !important;
+        padding-left: 5px !important;
+        font-size: 9px !important;
+        width: 40%;
+    }
+
+     .nav-submit {
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        width: 10px !important;
+        height: 10px !important;
+        padding: 0 !important;
+        border-width: 0 !important;
+        vertical-align: middle;
+    }
+
   
 }
     
@@ -1693,7 +1714,7 @@ input[type="search"]:focus {
     }
 
     .sub-button {
-        font-size: 5pt;
+        font-size: 6pt;
     }
     
     .logo img {
@@ -1712,6 +1733,54 @@ input[type="search"]:focus {
         background-size: 100% 100% !important;
         width: 10px !important;
         height: 10px !important;
+        padding: 0 !important;
+        border-width: 0 !important;
+        vertical-align: middle;
+    }
+
+}
+
+    @media only screen and (max-width: 669px) {
+     .menu-item a {
+        font-size: 5pt;  
+    }
+
+    .menu-item a: visited {
+        font-size: 5pt;  
+    }
+    
+    #weather {
+        font-size: 12pt;
+    }
+    
+    i {
+        font-size: 8px;
+    }
+    
+    .top-bar h3 {
+        font-size: 5pt;
+    }
+
+    .sub-button {
+        font-size: 4pt;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .nav-search-label{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        font-size: 7px !important;
+        width: 50%;
+    }
+
+     .nav-submit{
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        width: 9px !important;
+        height: 9px !important;
         padding: 0 !important;
         border-width: 0 !important;
         vertical-align: middle;
