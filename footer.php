@@ -58,7 +58,7 @@
 							    <li class="contact-number">434-260-1533</li>
 						    </ul>
 						   		<div class='social-media-imgs'>
-							    <img class='fb-img' src="<?php echo bloginfo('template_url'); ?>/footer-images/facebook.PNG" alt="fb image" >
+							    <img class='fb-img' src="<?php echo bloginfo('template_url'); ?>/footer-images/facebook.png" alt="fb image" >
 							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/twitter.png">
 							     <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/email.png" style="width: 32px;height:32px">
 							      <img  src="<?php echo bloginfo('template_url'); ?>/footer-images/linkedin.png">
