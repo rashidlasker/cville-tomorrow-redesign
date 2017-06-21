@@ -1349,7 +1349,7 @@ object {
 	p {
 		margin: 0;
 	}
-	ul {
+	.contact-items, .platform-items, .pages-items {
 		-webkit-padding-start: 0px;
 	}
 
@@ -1406,3 +1406,138 @@ object {
 		height: 800px;
 	}
 }
+
+
+/*Dor's styling*/
+body {
+	padding: 0 5%;
+}
+.site-main {
+	font-family: 'Libre-Baskerville';
+}
+.latestNews {
+	border: 1px solid black;
+	height: 665px;
+	margin: 0;
+	padding: 30px 0 0 0;
+	text-align: center;
+	color: #182E5A;
+	width: 28.57%;
+}
+.topStory {
+	height: 665px;
+	margin: 0;
+	padding: 0;
+	width: 42%;
+}
+.calendarSect {
+	height: 665px;
+	margin: 0;
+	padding: 30px 0 0 0;
+	text-align: center;
+	color: #182E5A;
+	width: 28.57%;
+}
+.topHeading {
+	text-align: center;
+	color: #182E5A;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 120%;
+	margin-bottom: 10px;
+	transform: scale(1.08, 1);
+}
+.topImg {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.topText {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 42px;
+	line-height: 110%;
+}
+.topText a {
+	color: #182E5A;
+	cursor: pointer;
+}
+.topText a:hover {
+	color: blue;
+}
+.latHeading {
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: bold;
+}
+.yellowLine {
+	background-color: #FAB20B;
+	width: 50%;
+	border: 2px solid #FAB20B;
+	margin: 0 auto 25px auto;
+}
+.line2 {
+	width: 40%;
+}
+.latArticles {
+	text-align: left;
+}
+.latArticles1 {
+	text-align: left;
+	display: none;
+}
+.latTitle {
+	font-size: 17px;
+	line-height: 116%;
+	cursor: pointer;
+}
+.latD-A {
+	color: grey;
+	font-size: 14.5px;
+}
+.latContent {
+	font-size: 14.5px;
+	margin: 0;
+	font-family: 'Libre-Baskerville';
+	line-height: 125%;
+}
+.latArticleList {
+	margin: 0;
+	padding-left: 25px;
+}
+.latPara {
+	border-left: 2px dotted rgba(250, 178, 11, 0.5);
+	padding: 0 20px 0 8px;
+}
+.calHeading {
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: bold;
+}
+@media (max-width: 1475px) {
+	.latTitle {
+		font-size: 15px;
+	}
+	.latD-A {
+		font-size: 13px;
+	}
+	.latContent {
+		font-size: 13px;
+	}
+}
+@media (max-width: 1330px) {
+	.latArticles {
+		display: none;
+	}
+	.latArticles1 {
+		display: block;
+	}
+	.topText {
+		font-size: 30px;
+	}
+	.topStory, .calendarSect, .latestNews {
+		height: 565px;
+	}
+}
+/*End of Dor's styling*/
