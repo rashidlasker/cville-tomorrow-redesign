@@ -1415,7 +1415,7 @@ body {
 }
 .topStory, .calendarSect, .latestNews {
 	border: 1px solid black;
-	height: 675px;
+	height: 700px;
 	margin: 0;
 	text-align: center;
 	color: #182E5A;
@@ -1426,7 +1426,7 @@ body {
 }
 .topStory {
 	padding: 0;
-	width: 42%;
+	width: 42.87%;
 }
 .calendarSect {
 	padding: 30px 0 0 0;
@@ -1449,8 +1449,8 @@ body {
 .topText {
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 15px;
-	font-size: 42px;
+	margin-top: 5px;
+	font-size: 38px;
 	line-height: 110%;
 }
 .topText a {
