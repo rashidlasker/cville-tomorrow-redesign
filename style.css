@@ -1232,14 +1232,11 @@ object {
 .platform-items {
 	list-style: none;
 	margin: 0;
+	padding-bottom: 30%;
 }
 
 .platform-items li {
 	font-family: "Noto Sans";
-	font-size: 12px;
-}
-
-.platform-items span {
 	font-size: 12px;
 }
 
@@ -1248,13 +1245,14 @@ object {
     white-space: nowrap;
 }
 
-.platform-list span {
+.copyright {
 	font-family: "Noto Sans";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	color: white;
+	font-size: 12px;
+	display: table;
+	margin: 0 auto;
 }
+
 
 .contact-items {
 	list-style: none;
@@ -1376,8 +1374,19 @@ object {
 	}
 	.platform-list {
 		margin: 0 auto;
-
 	}
+
+	.platform-items {
+		padding-bottom: 0;
+	}
+
+	.copyright {
+		position: absolute;
+		width:100%;
+		bottom: -50px;
+		font-family: "Noto Sans";
+	}
+
 	.contact-div {
 		margin: 0 auto;
 		padding-left: 0px;
@@ -1392,7 +1401,7 @@ object {
 	}
 }
 
-@media screen and (max-width: 365px){
+@media screen and (max-width: 413px){
 	.site-info {
 		height: 800px;
 	}

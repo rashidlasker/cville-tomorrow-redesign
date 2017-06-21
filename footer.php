@@ -43,6 +43,9 @@
 							    <li>Meeting & Conference Room Info</li>
 							    <li>All Staff & Contributors</li>
 						    </ul>
+						    <div class='copyright'>
+						    	<span>© 2005-2017 Charlottesville Tomorrow. All Rights Reserved</span>
+						    </div>
 						</div>
 					</div>
 					<div class="grid__col grid__col--1-of-3 contact">
