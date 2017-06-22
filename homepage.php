@@ -3,56 +3,72 @@
 			<!-- Latest News Section -->
 			<div class="grid__col latestNews"><span class="latHeading">Latest News</span><hr class="yellowLine">
 				<div class="latArticles">
-					<?php $args = array('posts_per_page' => 4);
+					<?php $args = array('posts_per_page' => 1, 'category_name' => 'Top');
 					$loop = new WP_Query($args);
-					while($loop->have_posts()):$loop->the_post();?>
-						<div class="latPara">
-							<div class="latTitle">
-								<a title="<?php the_title(); ?>"><?php the_title(); ?></a>
+					$recentTop = -1;
+					$count = 1;
+					while($loop->have_posts()):$loop->the_post();
+						$recentTop = get_the_ID();
+					endwhile;
+					while(have_posts() && $count < 5):the_post();
+						if(get_the_ID() != $recentTop) {
+							$count++;?>
+							<div class="latPara">
+								<div class="latTitle">
+									<a title="<?php the_title(); ?>"><?php the_title(); ?></a>
+								</div>
+								<div class="latD-A">
+									by <?php the_author(); ?> | <?php the_time('F j, Y'); ?>
+								</div>
+								<div class="latContent">
+									<?php
+									$threshold = 165;
+									if (strlen(get_the_content()) >= $threshold) {
+										while(substr(get_the_content(), $threshold, 1) != " ")
+											$threshold--;
+									}
+									$content = substr(get_the_content(),0,$threshold)."...";
+									echo $content; ?>
+								</div>
 							</div>
-							<div class="latD-A">
-								by <?php the_author(); ?> | <?php the_time('F j, Y'); ?>
-							</div>
-							<div class="latContent">
-								<?php
-								$threshold = 165;
-								if (strlen(get_the_content()) >= $threshold) {
-									while(substr(get_the_content(), $threshold, 1) != " ")
-										$threshold--;
-								}
-								$content = substr(get_the_content(),0,$threshold)."...";
-								echo $content; ?>
-							</div>
-						</div>
-						<br>
-					<?php endwhile; ?>
+							<br>
+						<?php }
+					endwhile; rewind_posts()?>
 				</div>
 				<div class="latArticles1">
-					<?php $args = array('posts_per_page' => 4);
+					<?php $args = array('posts_per_page' => 1, 'category_name' => 'Top');
 					$loop = new WP_Query($args);
-					while($loop->have_posts()):$loop->the_post();?>
-						<div class="latPara">
-							<div class="latTitle">
-								<a title="<?php the_title(); ?>"><?php the_title(); ?></a>
+					$recentTop = -1;
+					$count = 1;
+					while($loop->have_posts()):$loop->the_post();
+						$recentTop = get_the_ID();
+					endwhile;
+					while(have_posts() && $count < 5):the_post();
+						if(get_the_ID() != $recentTop) {
+							$count++;?>
+							<div class="latPara">
+								<div class="latTitle">
+									<a title="<?php the_title(); ?>"><?php the_title(); ?></a>
+								</div>
+								<div class="latD-A">
+									by <?php the_author(); ?> | <?php the_time('F j, Y'); ?>
+								</div>
+								<div class="latContent">
+									<?php
+									$threshold = 100;
+									if (strlen(get_the_content()) >= $threshold) {
+										while(substr(get_the_content(), $threshold, 1) != " ")
+											$threshold--;
+									}
+									$content = substr(get_the_content(),0,$threshold)."...";
+									echo $content; ?>
+								</div>
 							</div>
-							<div class="latD-A">
-								by <?php the_author(); ?> | <?php the_time('F j, Y'); ?>
-							</div>
-							<div class="latContent">
-								<?php
-								$threshold = 100;
-								if (strlen(get_the_content()) >= $threshold) {
-									while(substr(get_the_content(), $threshold, 1) != " ")
-										$threshold--;
-								}
-								$content = substr(get_the_content(),0,$threshold)."...";
-								echo $content; ?>
-							</div>
-						</div>
-						<br>
-					<?php endwhile; ?>
+							<br>
+						<?php }
+					endwhile; rewind_posts()?>
 				</div>
 				<div class="moreArtBtn"><span class="moreArtText">See More Articles</span></div>
-			</div><!-- Top Story Section --><div class="grid__col topStory"><div class="topHeading">TOP STORY</div><img class="topImg" src="<?php bloginfo('template_url'); ?>/pics/rapist.png" /><div class="topText"><a>Former U.Va student charged with rape</a></div></div><!-- Calendar Section --><div class="grid__col calendarSect"><span class="calHeading">Calendar</span><hr class="yellowLine line2">This is the calendar section lol</div>
+			</div><!-- Top Story Section --><div class="grid__col topStory"><div class="topHeading">TOP STORY</div><div class="topImg"><?php the_post_thumbnail($recentTop);?></div><div class="topText"><a><?php echo get_the_title($recentTop);?></a></div></div><!-- Calendar Section --><div class="grid__col calendarSect"><span class="calHeading">Calendar</span><hr class="yellowLine line2">This is the calendar section lol</div>
 		</main>
 	</div>

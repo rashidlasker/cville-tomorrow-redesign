@@ -1415,7 +1415,7 @@ body {
 }
 .topStory, .calendarSect, .latestNews {
 	border: 1px solid black;
-	height: 700px;
+	height: 710px;
 	margin: 0;
 	text-align: center;
 	color: #182E5A;
@@ -1446,6 +1446,7 @@ body {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
+	height: 20px;
 }
 .topText {
 	text-align: center;
@@ -1530,10 +1531,7 @@ body {
 	.latTitle {
 		font-size: 15px;
 	}
-	.latD-A {
-		font-size: 13px;
-	}
-	.latContent {
+	.latD-A, .latContent {
 		font-size: 13px;
 	}
 }
@@ -1548,7 +1546,7 @@ body {
 		font-size: 30px;
 	}
 	.topStory, .calendarSect, .latestNews {
-		height: 580px;
+		height: 600px;
 	}
 }
 @media (max-width: 1250px) {
@@ -1563,6 +1561,17 @@ body {
 	}
 	.latestNews, .calendarSect {
 		padding-top: 15px;
+	}
+}
+@media (max-width: 1175px) {
+	.latTitle {
+		font-size: 13px;
+	}
+	.latD-A {
+		font-size: 11.5px;
+	}
+	.latContent {
+		font-size: 12px;
 	}
 }
 /*End of Dor's styling*/
