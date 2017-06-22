@@ -570,8 +570,9 @@ h1, h2, h3{
 
 /*Top Story + Article Page Headline*/
 h1{
-    font-size: 48pt;
+	font-size: 36pt;
 }
+
 /*Categories*/
 h2{
     font-size: 36pt;
@@ -819,11 +820,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-    color: royalblue;
+	color: #182E5A;
 }
 
 a:visited {
-    color: purple;
+	color: #182E5A;
 }
 
 a:hover,
@@ -1091,6 +1092,10 @@ a:active {
     margin: 0 0 1.5em;
 }
 
+#page{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1577,6 +1582,32 @@ object {
 	}
 }
 /*End of Dor's styling*/
+
+/*--------------------------------------------------------------
+## ARTICLES 
+--------------------------------------------------------------*/
+.article-page {
+	width: 70%;
+}
+
+.entry-title {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.entry-content {
+	width: 70%;
+}
+
+
+
+/*--------------------------------------------------------------
+## ARTICLES 
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 ## Nav

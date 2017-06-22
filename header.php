@@ -85,7 +85,7 @@
                 <div class="weather"></div>
                 <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
                 <button class="sub-button">SUBSCRIBE</button>
-                
+             
             </div>
 
             <div class="bottom-bar">
