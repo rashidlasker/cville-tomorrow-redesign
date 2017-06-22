@@ -41,6 +41,12 @@
                 $('.bar').toggleClass('animate');
                 $('.menu-mobile-menu-container').fadeToggle('fast');
             })
+          
+          $(window).resize(function() {
+                if ($( window ).width() > 729){
+                    $('.menu-mobile-menu-container').hide();
+                }
+            });
         }); 
     </script>
 </head>
