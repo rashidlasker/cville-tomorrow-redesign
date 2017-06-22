@@ -1565,7 +1565,19 @@ object {
 		padding-top: 15px;
 	}
 }
-<<<<<<< HEAD
+
+@media (max-width: 1175px) {
+	.latTitle {
+		font-size: 13px;
+	}
+	.latD-A {
+		font-size: 11.5px;
+	}
+	.latContent {
+		font-size: 12px;
+	}
+}
+
 /*End of Dor's styling*/
 
 /*--------------------------------------------------------------
@@ -1642,6 +1654,8 @@ object {
 	height: 200px;
 	border: 1px dotted black;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/yung-albemarle.jpg");
+	background-size: cover;
 }
 
 .image-3 {
@@ -1667,6 +1681,8 @@ object {
 	height: 200px;
 	border: 1px solid orange;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/community-design.png");
+	background-size: cover;
 }
 
 .image-6 {
@@ -1674,6 +1690,8 @@ object {
 	height: 200px;
 	border: 1px dotted blue;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/michigan-farm.jpg");
+	background-size: cover;
 }
 
 .image-7 {
@@ -1681,6 +1699,8 @@ object {
 	height: 200px;
 	border: 1px solid blue;
 	margin-bottom: 78.281px;
+	background: url('http://localhost/demo-copy/wp-content/uploads/2017/06/route-29.png');
+	background-size: cover;
 }
 
 .image-8 {
@@ -1688,6 +1708,8 @@ object {
 	height: 200px;
 	border: 1px dotted purple;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/bike-img.png");
+	background-size: cover;
 }
 
 .image-9 {
@@ -1695,6 +1717,8 @@ object {
 	height: 200px;
 	border: 1px solid black;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/crozet.jpg");
+	background-size: cover;
 }
 
 .image-10 {
@@ -1702,6 +1726,8 @@ object {
 	height: 200px;
 	border: 1px solid black;
 	margin-bottom: 78.281px;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/corn_field.jpg");
+	background-size: cover;
 }
 
 .image-11 {
@@ -1709,6 +1735,8 @@ object {
 	height: 200px;
 	border: 1px solid black;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/rivanna.jpg");
+	background-size: cover;
 }
 
 .image-12 {
@@ -1716,22 +1744,32 @@ object {
 	height: 200px;
 	border: 1px solid black;
 	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/recreation.jpeg");
+	background-size: cover;
 
 }
 
-=======
-@media (max-width: 1175px) {
-	.latTitle {
-		font-size: 13px;
-	}
-	.latD-A {
-		font-size: 11.5px;
-	}
-	.latContent {
+@media screen and (max-width: 908px){
+	.alphabet{
 		font-size: 12px;
 	}
 }
-/*End of Dor's styling*/
+
+
+@media screen and (max-width: 700px){
+	.topics-area{
+		height: 1350px;
+	}
+
+	.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, 
+	.image-7, .image-8, .image-9, .image-10, .image-11, .image-12{
+		width: 100%;
+		margin: 0;
+	}
+	.sidebar {
+		height: 1350px;
+		display: block;
+	}
 
 /*--------------------------------------------------------------
 ## Nav
@@ -2328,4 +2366,3 @@ input:focus {
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
->>>>>>> origin/master

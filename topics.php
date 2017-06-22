@@ -50,8 +50,6 @@
 				</div>
 				<div class="grid__col grid__col--1-of-4 image-12"><div class='layer-12'></div>
 				</div>
-
-
 			</div>
 			<div class="grid__col grid__col--1-of-6 sidebar">
 			</div>
