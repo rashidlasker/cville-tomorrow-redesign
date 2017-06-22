@@ -36,6 +36,11 @@
               $(".weather").html('<p>'+error+'</p>');
             }
           });
+
+          $('.hamburger-menu').on('click', function() {
+                $('.bar').toggleClass('animate');
+                $('.menu-mobile-menu-container').fadeToggle('fast');
+            })
         }); 
     </script>
 </head>
@@ -105,16 +110,17 @@
                     <input type="submit" class="search-submit nav-submit" value="" style="background:url(<?php echo bloginfo('template_url'); ?>/images/magnifying-glass-navy.png);"/>
                 </form>
             </section><div class="hamburger">
-                
-                <?php
-                    wp_nav_menu( array(
-                        'theme_location' => 'menu-3',
-                        'menu_id'        => 'mobile',
-                    ) );
-                ?>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>   
+                </div>
             </div>
         </div>
-
+        <?php
+            wp_nav_menu( array(
+                'theme_location' => 'menu-3',
+                'menu_id'        => 'mobile',
+            ) );
+        ?>
 <!-- end mobile nav -->
               
     </header><!-- #masthead -->
