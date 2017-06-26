@@ -14,13 +14,15 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
+				<div class='sike-img'><img src='http://localhost/demo-copy/wp-content/uploads/2017/06/sike.jpg'></div>
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'cville-tomorrow-theme' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
+
 					<p class='nothing-found'>It looks like nothing was found at this location. Please return to the 
 					<b><a href=''>homepage</a></b> or try searching properly!</p>
-					<?<?php get_search_form(); ?>
+					<?php get_search_form(); ?>
 					<p class='nothing-found'>If you're still here, enjoy some great quotes that have <b>nothing</b> to do with our dissatisfaction with the name of our publication! </p>
 					
 					<section class="rw-wrapper">
@@ -44,3 +46,4 @@ get_header(); ?>
 
 <?php
 get_footer();
+?>
