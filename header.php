@@ -41,6 +41,12 @@
                 $('.bar').toggleClass('animate');
                 $('.menu-mobile-menu-container').fadeToggle('fast');
             })
+          
+          $(window).resize(function() {
+                if ($( window ).width() > 729){
+                    $('.menu-mobile-menu-container').hide();
+                }
+            });
         }); 
     </script>
 </head>
@@ -85,7 +91,7 @@
                 <div class="weather"></div>
                 <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
                 <button class="sub-button">SUBSCRIBE</button>
-                
+             
             </div>
 
             <div class="bottom-bar">
