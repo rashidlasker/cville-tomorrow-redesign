@@ -19,7 +19,10 @@ get_header(); ?>
 
 				<div class="page-content">
 					<p class='nothing-found'>It looks like nothing was found at this location. Please return to the 
-					<b><a href=''>homepage</a></b> and try again! <br>If you're still here, enjoy some great quotes that have <b>nothing</b> to do with our dissatisfaction with the name of our publication! </p>
+					<b><a href=''>homepage</a></b> or try searching properly!</p>
+					<?<?php get_search_form(); ?>
+					<p class='nothing-found'>If you're still here, enjoy some great quotes that have <b>nothing</b> to do with our dissatisfaction with the name of our publication! </p>
+					
 					<section class="rw-wrapper">
 					<p class="rw-sentence">
 						<div class="rw-words rw-words-1">
