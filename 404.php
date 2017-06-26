@@ -26,12 +26,12 @@ get_header(); ?>
 					<section class="rw-wrapper">
 					<p class="rw-sentence">
 						<div class="rw-words rw-words-1">
-							<span>"Carpe Diem." - Horace</span>
-							<span>"Americans deserve a better tomorrow, today." - Nancy Pelosi</span>
-							<span>"The future starts today, not tomorrow." - Pope John Paul II</span>
-							<span>"Nobody got where they are today by living for tomorrow." - Tom Wilson</span>
-							<span>"Tomorrow is a thief of pleasure." - Rex Harrison</span>
-							<span>"Life lived for tomorrow will always be just a day away from being realized." - Leo Buscaglia </span>
+							<span>"<b>Carpe Diem</b>." - Horace</span>
+							<span>"Americans deserve a better tomorrow, <b>today</b>." - Nancy Pelosi</span>
+							<span>"The future starts <b>today</b>, not tomorrow." - Pope John Paul II</span>
+							<span>"Nobody got where they are <b>today</b> by living for tomorrow." - Tom Wilson</span>
+							<span>"Tomorrow is a <b>thief of pleasure</b>." - Rex Harrison</span>
+							<span>"Life lived for tomorrow will <b>always</b> be just a <b>day away from being realized</b>." - Leo Buscaglia </span>
 						</div>
 						<br />
 					</p>
