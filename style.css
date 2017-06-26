@@ -2414,3 +2414,93 @@ input:focus {
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+.page-title {
+	display: block;
+	font-size: 64px;
+	text-align: center;
+}
+
+.page-content p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.page-content span {
+	text-align: center;
+}
+
+.page-content {
+	padding-bottom: 75px;
+}
+
+.nothing-found {
+	font-size: 16px;
+}
+
+.nothing-found a {
+	text-decoration: none;
+}
+
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.rw-sentence{
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.rw-sentence span{
+	color: #444;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: #182E5A;
+}
+
+.rw-words-1 span{
+	font-family: 'noto sans';
+	font-size: 20px;
+	animation: rotateWordsFirst 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}

@@ -10,9 +10,7 @@
  */
 
 ?>
-<?php
-	get_header();
-?>
+
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Sans" rel="stylesheet">	
 	</head>
