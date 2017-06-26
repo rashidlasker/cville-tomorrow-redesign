@@ -1638,7 +1638,7 @@ object {
 
 .image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover,
 .image-7:hover, .image-8:hover, .image-9:hover, .image-10:hover, .image-11:hover, .image-12:hover {
-	border: 2px solid #FFF;
+	border: 5px solid #FDB717;
 }
 
 .image-text:hover {
