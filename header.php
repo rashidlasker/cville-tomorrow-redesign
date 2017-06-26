@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="logo">
-                <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">
+                <a href="<?php echo home_url();?>"><img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png"></a>
             </div>
             <div class="top-bar">
                 <h3 class = "nav-date"><?php echo date('l,  F jS, Y'); ?> </h3> 

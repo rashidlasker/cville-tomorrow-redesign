@@ -1,9 +1,9 @@
 /*
 Theme Name: cville-tomorrow-theme
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/rashidlasker/cville-tomorrow-theme
 Author: Rashid Lasker
-Author URI: http://underscores.me/
-Description: Description
+Author URI: https://github.com/rashidlasker
+Description: HackCville project to redesign the Charlottesville Tomorrow website.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -1890,6 +1890,55 @@ object {
 
 /*--------------------------------------------------------------
 ## PAGES 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## SEARCH 
+--------------------------------------------------------------*/
+
+.no-results .page-title{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.page-header .page-title{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.post, .page{
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.entry-footer{
+    margin-bottom: 30px;
+}
+
+.entry-summary p{
+    margin-bottom: 10px;
+}
+
+
+.no-results p{
+    text-align: center;
+}
+
+.page-content .search-form{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 770px) {
+    .page-content .nav-search-label {
+        font-size: 18px !important;
+        width: 70%;
+    }
+}
+
+/*--------------------------------------------------------------
+## SEARCH 
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
