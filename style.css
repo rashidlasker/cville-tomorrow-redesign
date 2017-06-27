@@ -1340,7 +1340,10 @@ object {
 }
 .pages-items, .platform-items, .contact-items {
 	-webkit-padding-start: 0px;
-}
+	}
+
+
+
 .footer-heading, .footer-heading2, .footer-heading3 {
 	margin-bottom: 20px;
 }
@@ -1570,6 +1573,7 @@ object {
 		padding-top: 15px;
 	}
 }
+
 @media (max-width: 1175px) {
 	.latTitle {
 		font-size: 13px;
@@ -1581,7 +1585,259 @@ object {
 		font-size: 12px;
 	}
 }
-@media (max-width: 1100px) {
+
+/*End of Dor's styling*/
+
+/*--------------------------------------------------------------
+# topics
+--------------------------------------------------------------*/
+
+.alpha-index {
+	height: 100px;
+	border-top: 5px solid #FDB717;
+}
+.topics-area {
+	height: 1100px;
+}
+
+.sidebar {
+	height: 1100px;
+}
+
+.editor-text {
+	color: #FDB717;
+}
+
+.editor-text p {
+	font-family: 'Libre-Baskerville';
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+/*.ct-logo img{
+	display: inline-block;
+	padding-top: 1.5%;
+}*/
+
+.ct-logo span{
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+
+.ct-logo a {
+	text-decoration: none;
+	color: #676766;
+}
+
+.ct-logo a:hover{
+	text-decoration: underline;
+}
+
+.ct-all {
+	font-family: 'Libre-Baskerville';
+}
+
+
+.alphabet {
+	font-size: 14px;
+	font-family: "noto sans";
+	color: #676766;
+}
+
+.image-1 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/friendship-court.png");
+	background-size: cover;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover,
+.image-7:hover, .image-8:hover, .image-9:hover, .image-10:hover, .image-11:hover, .image-12:hover {
+	border: 5px solid #FDB717;
+}
+
+.image-text:hover {
+	text-decoration: underline;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6, 
+.layer-7, .layer-8, .layer-9, .layer-10, .layer-11, .layer-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-2 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/yung-albemarle.jpg");
+	background-size: cover;
+}
+
+.image-3 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/cville-land-use.jpeg");
+	background-size: cover;
+}
+
+.image-4 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/comprehensive-plan.jpg");
+	background-size: cover;
+}
+
+.image-5 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/community-design.png");
+	background-size: cover;
+}
+
+.image-6 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/michigan-farm.jpg");
+	background-size: cover;
+}
+
+.image-7 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url('http://localhost/demo-copy/wp-content/uploads/2017/06/route-29.png');
+	background-size: cover;
+}
+
+.image-8 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/bike-img.png");
+	background-size: cover;
+}
+
+.image-9 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/crozet.jpg");
+	background-size: cover;
+}
+
+.image-10 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/corn_field.jpg");
+	background-size: cover;
+}
+
+.image-11 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/rivanna.jpg");
+	background-size: cover;
+}
+
+.image-12 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://localhost/demo-copy/wp-content/uploads/2017/06/recreation.jpeg");
+	background-size: cover;
+
+}
+
+.image-text {
+	position: absolute;
+	font-family: "noto sans";
+	font-size: 18px;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-weight: bold;
+	color: white;
+	white-space: nowrap;
+}
+
+.side-ad-1 {
+	padding-bottom: 20px;
+}
+
+.side-ad-2 {
+	padding-bottom: 50px;
+}
+
+.side-ad-3 {
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width: 908px){
+	.alphabet{
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 924px){
+	.topics-area{
+		position: relative;
+		height: 2400px;
+		width: 100%;
+		display: block;
+	}
+
+	.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, 
+	.image-7, .image-8, .image-9, .image-10, .image-11, .image-12{
+		width: 100%;
+		margin: 0;
+	}
+	.sidebar {
+		position: relative;
+		height: 1350px;
+		width: 100%;
+		display: block;
+	}
+	.side-ad-1 {
+		padding-top: 20px;
+		
+	}
+	.side-ad-1, .side-ad-2, .side-ad-3, .side-ad-4 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 1130px){
+	.image-text, .image-text-cville {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	.image-text, .image-text-cville {
+		font-size: 13px;
+	}
+}
+
+/*@media (max-width: 1100px) {
 	.topStory, .calendarSect, .latestNews {
 		height: 525px;
 	}
@@ -1599,7 +1855,7 @@ object {
 }
 @media (max-width: 769px) {
 
-}
+}*/
 /*End of Dor's styling*/
 
 /*--------------------------------------------------------------
@@ -2380,3 +2636,99 @@ input:focus {
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+.page-title {
+	display: block;
+	font-size: 64px;
+	text-align: center;
+}
+
+.sike-img img{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.page-content p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.page-content span {
+	text-align: center;
+}
+
+.page-content {
+	padding-bottom: 75px;
+}
+
+.nothing-found {
+	font-size: 16px;
+}
+
+.nothing-found a {
+	text-decoration: none;
+}
+
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.rw-sentence{
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.rw-sentence span{
+	color: #444;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: #182E5A;
+}
+
+.rw-words-1 span{
+	font-family: 'noto sans';
+	font-size: 20px;
+	animation: rotateWordsFirst 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}

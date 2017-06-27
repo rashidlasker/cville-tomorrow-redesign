@@ -12,7 +12,7 @@
  * @package cville-tomorrow-theme
  */
 
-get_header();
+get_header(); 
 include 'homepage.php';
 get_footer();
 ?>

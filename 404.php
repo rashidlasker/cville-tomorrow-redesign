@@ -14,46 +14,30 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
+				<div class='sike-img'><img src='<?php echo bloginfo('template_url');?>/404-image/sike.jpg'></div>
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'cville-tomorrow-theme' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'cville-tomorrow-theme' ); ?></p>
 
-					<?php
-						get_search_form();
-
-						the_widget( 'WP_Widget_Recent_Posts' );
-
-						// Only show the widget if site has multiple categories.
-						if ( cville_tomorrow_theme_categorized_blog() ) :
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'cville-tomorrow-theme' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-						endif;
-
-						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'cville-tomorrow-theme' ), convert_smilies( ':)' ) ) . '</p>';
-						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-
-						the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
+					<p class='nothing-found'>It looks like nothing was found at this location. Please return to the 
+					<b><a href=''>homepage</a></b> or try searching below!</p>
+					<?php get_search_form(); ?>
+					<p class='nothing-found'>If you're still here, enjoy some great quotes that have <b>nothing</b> to do with our dissatisfaction with the name of our publication! </p>
+					
+					<section class="rw-wrapper">
+					<p class="rw-sentence">
+						<div class="rw-words rw-words-1">
+							<span>"<b>Carpe Diem</b>." - Horace</span>
+							<span>"Americans deserve a better tomorrow, <b>today</b>." - Nancy Pelosi</span>
+							<span>"The future starts <b>today</b>, not tomorrow." - Pope John Paul II</span>
+							<span>"Nobody got where they are <b>today</b> by living for tomorrow." - Tom Wilson</span>
+							<span>"Tomorrow is a <b>thief of pleasure</b>." - Rex Harrison</span>
+							<span>"Life lived for tomorrow will <b>always</b> be just a <b>day away from being realized</b>." - Leo Buscaglia </span>
+						</div>
+						<br />
+					</p>
+						</section>
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
 
@@ -62,3 +46,4 @@ get_header(); ?>
 
 <?php
 get_footer();
+?>
