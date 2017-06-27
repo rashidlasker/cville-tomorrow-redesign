@@ -14,7 +14,7 @@ get_header(); ?>
 
         while ( have_posts() ) : the_post();
 
-            get_template_part( 'template-parts/content', get_post_format() );
+            get_template_part('template-parts/content-event', get_post_format() );
 
             the_post_navigation();
 
@@ -31,5 +31,5 @@ get_header(); ?>
 
 <?php
 
-// get_sidebar();
+//get_sidebar();
 get_footer();
