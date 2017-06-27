@@ -1626,9 +1626,19 @@ object {
 	font-weight: bold;
 }
 
+.ct-logo a {
+	text-decoration: none;
+	color: #676766;
+}
+
+.ct-logo a:hover{
+	text-decoration: underline;
+}
+
 .ct-all {
 	font-family: 'Libre-Baskerville';
 }
+
 
 .alphabet {
 	font-size: 14px;

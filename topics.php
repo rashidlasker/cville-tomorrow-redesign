@@ -22,7 +22,7 @@
 		<main id="main" class="site-main" role="main">
 		<div class="grid">
 			<div class="grid__col grid__col--3-of-4 alpha-index"><div class='ct-logo'>
-			<span class= 'ct-all' style='font-size: 32px; color: #FDB717'>ALL</span><span class='alphabet'>A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z</span></div></div>
+			<span class= 'ct-all' style='font-size: 32px; color: #FDB717'>ALL</span><span class='alphabet'><a href=''>A</a> | <a href=''>B</a> | <a href=''> C</a> | <a href=''> D</a> | <a href=''>E</a>| <a href=''>F</a> | <a href=''>G</a> |<a href=''> H </a>| <a href=''>I</a> | <a href=''>J</a>| <a href=''>K</a> | <a href=''>L</a> | <a href=''>M</a> | <a href=''>N </a>| <a href=''>O </a>| <a href=''>P</a> |<a href=''> Q</a> | <a href=''>R</a> | <a href=''>S</a> | <a href=''>T </a>| <a href=''>U</a> | <a href=''>V</a> | <a href=''>W </a>| <a href=''>X</a> | <a href=''>Y </a>| <a href=''>Z</a></span></div></div>
 			<div class='editor-text'><p>EDITORS' PICKS</p></div>
 			<div class="grid__col grid__col--5-of-6 topics-area">
 				<a href='#'><div class="grid__col grid__col--1-of-4 image-1"><div class='layer-1'></div><span class='image-text'>Affordable Living</span></a>
