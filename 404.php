@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-				<div class='sike-img'><img src='http://localhost/demo-copy/wp-content/uploads/2017/06/sike.jpg'></div>
+				<div class='sike-img'><img src='<?php echo bloginfo('template_url');?>/404-image/sike.jpg'></div>
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'cville-tomorrow-theme' ); ?></h1>
 				</header><!-- .page-header -->
 
