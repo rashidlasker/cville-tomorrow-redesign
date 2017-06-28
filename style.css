@@ -1222,6 +1222,9 @@ object {
 /*--------------------------------------------------------------
 # Article
 --------------------------------------------------------------*/
+/*.site-main {
+  width: 70%;
+}*/
 
 .entry-meta {
   margin-bottom: 10px;
@@ -1263,12 +1266,6 @@ figure#attachment_49.wp-caption.alignleft {
 	margin: 0;
 }
 
-#page{
-    max-width: 1150px;
-}
-
-
-
 
 
 
@@ -1276,7 +1273,22 @@ figure#attachment_49.wp-caption.alignleft {
 # Article
 --------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+# Overall
+--------------------------------------------------------------*/
 
+#page{
+    max-width: 1150px;
+}
+
+@media screen and (max-width: 1200px){
+    .site-content {
+        padding: 0 5%;
+    }
+}
+/*--------------------------------------------------------------
+# Overall
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Footer
@@ -1485,9 +1497,9 @@ figure#attachment_49.wp-caption.alignleft {
 }
 
 /*Dor's styling*/
-.site-content {
+/*.site-content {
 	padding: 0 5%;
-}
+}*/
 .site-main {
 	font-family: 'Libre-Baskerville';
 }
