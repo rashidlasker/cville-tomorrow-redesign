@@ -2724,6 +2724,10 @@ input:focus {
 	text-align: center;
 }
 
+.site-main-1 {
+	width: 100%;
+}
+
 .sike-img img{
 	display: block;
 	margin: 0 auto;
@@ -2848,7 +2852,7 @@ input:focus {
 
 .event-info {
 	font-family: 'noto sans';
-	width: 100%;
+	width: 50%;
 	margin: 0 auto;
 }
 
