@@ -90,7 +90,7 @@
                 <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
                 <div class="weather"></div>
                 <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
-                <button class="sub-button">SUBSCRIBE</button>
+                <a href="http://wireframewebsites.com/cville-tomorrow/join/"><button class="sub-button">SUBSCRIBE</button></a>
              
             </div>
 
