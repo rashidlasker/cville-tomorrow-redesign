@@ -560,7 +560,7 @@ h6 {
 p {
     margin-bottom: 1.5em;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 h1, h2, h3{
@@ -570,7 +570,9 @@ h1, h2, h3{
 
 /*Top Story + Article Page Headline*/
 h1{
-	font-size: 36pt;
+    font-size: 24pt;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 /*Categories*/
@@ -737,10 +739,9 @@ input[type="reset"],
 input[type="submit"] {
     border: 1px solid;
     border-color: #ccc #ccc #bbb;
-    border-radius: 3px;
-    background: #e6e6e6;
-    color: rgba(0, 0, 0, .8);
-    font-size: 12px;
+    background: #182E5A;
+    color: white;
+    font-size: 20pt;
     font-size: 0.75rem;
     line-height: 1;
     padding: .6em 1em .4em;
@@ -820,12 +821,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #182E5A;
+    color: #676766;
+    text-decoration: none;
+    font-family: "Noto sans";
 }
 
 a:visited {
+    text-decoration: none;
+    font-family: "Noto sans";
 	color: #182E5A;
 }
+
 
 a:hover,
 a:focus,
@@ -1210,6 +1216,66 @@ object {
 .gallery-caption {
     display: block;
 }
+
+
+/*--------------------------------------------------------------
+# Article
+--------------------------------------------------------------*/
+.site-main {
+  width: 70%;
+}
+
+.entry-meta {
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+
+p.caption {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 10pt;
+}
+
+.entry-content {
+  margin-top: 0px;
+}
+
+figcaption.wp-caption-text {
+  font-size:10pt;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+figure#attachment_49.wp-caption.alignleft {
+  margin: 20px;
+}
+
+.ads {
+	width: 30%;
+}
+
+.comment-form-comment {
+	font-size: 20pt;
+	color: #182E5A;
+}
+
+#reply-title .comment-reply-title{
+	margin: 0;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Article
+--------------------------------------------------------------*/
+
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -2222,7 +2288,7 @@ i {
     color: white;
     font-size: 8pt;
     font-family: 'Libre Baskerville', serif;
-    border-radius: 200px;
+    /*border-radius: 200px;*/
 }
 
 .logo img {
