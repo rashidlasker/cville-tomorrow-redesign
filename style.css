@@ -1265,7 +1265,9 @@ figure#attachment_49.wp-caption.alignleft {
 	margin: 0;
 }
 
-
+#page{
+    max-width: 1150px;
+}
 
 
 
