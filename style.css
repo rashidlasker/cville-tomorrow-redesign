@@ -1221,9 +1221,6 @@ object {
 /*--------------------------------------------------------------
 # Article
 --------------------------------------------------------------*/
-.site-main {
-  width: 70%;
-}
 
 .entry-meta {
   margin-bottom: 10px;
@@ -2711,6 +2708,10 @@ input:focus {
 	display: block;
 	font-size: 64px;
 	text-align: center;
+}
+
+.site-main-1 {
+	width: 100%;
 }
 
 .sike-img img{
