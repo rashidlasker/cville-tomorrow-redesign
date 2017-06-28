@@ -1,9 +1,9 @@
 /*
 Theme Name: cville-tomorrow-theme
-Theme URI: http://underscores.me/
+Theme URI: https://github.com/rashidlasker/cville-tomorrow-theme
 Author: Rashid Lasker
-Author URI: http://underscores.me/
-Description: Description
+Author URI: https://github.com/rashidlasker
+Description: HackCville project to redesign the Charlottesville Tomorrow website.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -574,6 +574,7 @@ h1{
     margin-bottom: 0;
     margin-top: 10px;
 }
+
 /*Categories*/
 h2{
     font-size: 36pt;
@@ -826,10 +827,11 @@ a {
 }
 
 a:visited {
-    color: #676766;
     text-decoration: none;
     font-family: "Noto sans";
+	color: #182E5A;
 }
+
 
 a:hover,
 a:focus,
@@ -1096,6 +1098,9 @@ a:active {
     margin: 0 0 1.5em;
 }
 
+#page{
+    margin: 0 auto;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1276,6 +1281,8 @@ figure#attachment_49.wp-caption.alignleft {
 # Footer
 --------------------------------------------------------------*/
 .footer-bg {
+	padding: 0 5%;
+	position: relative;
 	height: 350px; 
 	width: 100%; 
 	background-color: #182e5a;
@@ -1285,19 +1292,17 @@ figure#attachment_49.wp-caption.alignleft {
 	color: white; 
 	margin: 0 auto
 }
-
+.pages-items li, .platform-items li, .contact-items li {
+	line-height: 1.75;
+}
 .pages-items li {
 	font-family: "noto sans";
 	font-size: 12px;
 }
 
-.pages-list-items {
-	padding-left: 60px;
-}
 .platform-items {
 	list-style: none;
 	margin: 0;
-	padding-bottom: 125px;
 }
 
 .platform-items li {
@@ -1317,9 +1322,8 @@ figure#attachment_49.wp-caption.alignleft {
 	font-size: 12px;
 	left: 50%;
 	transform: translate(-50%, 0);
+	bottom: 7px;
 }
-
-
 .contact-items {
 	list-style: none;
 	color: white;
@@ -1328,13 +1332,12 @@ figure#attachment_49.wp-caption.alignleft {
 .contact-items li {
 	font-family: "noto sans";
 	font-size: 12px;
-
 }
-
-.contact-div{
-	padding-left: 60px;
+.footerSpace {
+	display: inline-block;
+	width: 12%;
+	height: 20px;
 }
-
 .contact-div ul{
 	margin: 0;
 }
@@ -1352,9 +1355,9 @@ figure#attachment_49.wp-caption.alignleft {
 .footer-heading:after {
     color: #8b96ac;
     content: '';
-    width: 30%;
+    width: 50%;
     position: absolute;
-    left: 35%;
+    left: 26%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
@@ -1375,7 +1378,7 @@ figure#attachment_49.wp-caption.alignleft {
     content: '';
     width: 60%;
     position: absolute;
-    left: 20%;
+    left: 20.5%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
@@ -1394,84 +1397,91 @@ figure#attachment_49.wp-caption.alignleft {
 .footer-heading3:after {
     color: #8b96ac;
     content: '';
-    width: 36%;
+    width: 50%;
     position: absolute;
-    left: 33%;
+    left: 25.5%;
     bottom: 0px;
     border-width: 0 0 2px;
     border-style: solid;
 }
-
-
 .pages-items, .platform-items, .contact-items {
-		-webkit-padding-start: 0px;
+	-webkit-padding-start: 0px;
 	}
+
+
 
 .footer-heading, .footer-heading2, .footer-heading3 {
 	margin-bottom: 20px;
 }
-
 .social-media-imgs {
-	padding-top: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	bottom: 50px;
 }
-
-@media screen and (max-width: 1098px){
-	p {
-		margin: 0;
+@media (max-width: 1050px) {
+	.footer-heading, .footer-heading2, .footer-heading3 {
+		font-size: 33px;
 	}
-	.site-info {
-		height: 800px;
-		background-color: #182e5a;
+}
+@media (max-width: 970px) {
+	.footer-bg {
+		height: 300px;
 	}
-	.grid {
-  		position: relative;
+	.footer-heading, .footer-heading2, .footer-heading3 {
+		font-size: 30px;
 	}
-	.pages-list-items {
-		margin: 0 auto;
+	.pages-items li, .platform-items li, .contact-items li, .copyright {
+		font-size: 10px;
 	}
-	.pages, .our-platform, .contact {
-		display: block;
-		width: 100%;
-		text-align: center;
+}
+@media (max-width: 890px) {
+	.footer-bg {
+		height: 280px;
 	}
-	.pages-list-items {
-		padding-left: 0px;
+	.footer-heading, .footer-heading2, .footer-heading3 {
+		font-size: 25px;
 	}
-	.platform-list {
-		margin: 0 auto;
-	}
-
-	.platform-items {
-		padding-bottom: 0;
-	}
-
-	.copyright {
-		position: absolute;
-		width:100%;
-		bottom: -50px;
-		font-family: "Noto Sans";
-	}
-
-	.contact-div {
-		margin: 0 auto;
-		padding-left: 0px;
+	.pages-items li, .platform-items li, .contact-items li, .copyright {
+		font-size: 9.5px;
 	}
 	.social-media-imgs {
-		vertical-align: middle;
+		bottom: 30px;
 	}
-
+}
+@media (max-width: 726px) {
+	.footer-bg {
+		height: 770px;
+		text-align: center;
+	}
 	.footer-heading, .footer-heading2, .footer-heading3 {
-		margin-bottom: 25px;
-		padding-top: 50px;
+		font-size: 31px;
+	}
+	.pages-items li, .platform-items li, .contact-items li, .copyright {
+		font-size: 11.5px;
+	}
+	.social-media-imgs {
+		bottom: 62px;
+	}
+	.our-pages, .our-platform, .contact {
+		width: 100%;
+	}
+	.copyright {
+		width: 100%;
+	}
+	.grid__col {
+		box-sizing: border-box;
+		display: inline-block;
+		margin-right: -.25em;
+		min-height: 1px;
+		vertical-align: top;
 	}
 }
-
-@media screen and (max-width: 493px){
-	.site-info {
-		height: 800px;
+@media (max-width: 490px) {
+	.social-media-imgs {
+		width: 100%;
 	}
 }
-
 
 /*Dor's styling*/
 .site-content {
@@ -1481,7 +1491,6 @@ figure#attachment_49.wp-caption.alignleft {
 	font-family: 'Libre-Baskerville';
 }
 .topStory, .calendarSect, .latestNews {
-	border: 1px solid black;
 	height: 710px;
 	margin: 0;
 	text-align: center;
@@ -1512,8 +1521,6 @@ figure#attachment_49.wp-caption.alignleft {
 .topImg {
 	display: block;
 	margin: 0 auto;
-	width: 100%;
-	height: 20px;
 }
 .topText {
 	text-align: center;
@@ -1578,14 +1585,16 @@ figure#attachment_49.wp-caption.alignleft {
 	line-height: 1.2;
 	font-weight: bold;
 }
+.btnContainer {
+	padding: 0 20px 0 8px;
+	position: relative;
+}
 .moreArtBtn {
+	margin: -5px auto 0 auto;
+	position: relative;
 	background-color: red;
-	position: absolute;
-	bottom: 10px;
 	width: 140px;
 	height: 35px;
-	left: 50%;
-	transform: translate(-50%, 0);
 }
 .moreArtText {
 	width: 130px;
@@ -1630,6 +1639,7 @@ figure#attachment_49.wp-caption.alignleft {
 		padding-top: 15px;
 	}
 }
+
 @media (max-width: 1175px) {
 	.latTitle {
 		font-size: 13px;
@@ -1641,7 +1651,457 @@ figure#attachment_49.wp-caption.alignleft {
 		font-size: 12px;
 	}
 }
+
 /*End of Dor's styling*/
+
+/*--------------------------------------------------------------
+# topics
+--------------------------------------------------------------*/
+
+.alpha-index {
+	height: 100px;
+	border-top: 5px solid #FDB717;
+}
+.topics-area {
+	height: 1100px;
+}
+
+.sidebar {
+	height: 1100px;
+}
+
+.editor-text {
+	color: #FDB717;
+}
+
+.editor-text p {
+	font-family: 'Libre-Baskerville';
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+/*.ct-logo img{
+	display: inline-block;
+	padding-top: 1.5%;
+}*/
+
+.ct-logo span{
+	float: left;
+	clear: left;
+	font-weight: bold;
+}
+
+.ct-logo a {
+	text-decoration: none;
+	color: #676766;
+}
+
+.ct-logo a:hover{
+	text-decoration: underline;
+}
+
+.ct-all {
+	font-family: 'Libre-Baskerville';
+}
+
+
+.alphabet {
+	font-size: 14px;
+	font-family: "noto sans";
+	color: #676766;
+}
+
+.image-1 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://s3.amazonaws.com/cville/cache%2Ff1%2F28%2Ff1280ad2d7c755f287361d4a3ad963ef.png");
+	background-size: cover;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover,
+.image-7:hover, .image-8:hover, .image-9:hover, .image-10:hover, .image-11:hover, .image-12:hover {
+	border: 5px solid #FDB717;
+}
+
+.image-text:hover {
+	text-decoration: underline;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6, 
+.layer-7, .layer-8, .layer-9, .layer-10, .layer-11, .layer-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-2 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Albemarle_County_Office_Building.jpg/1200px-Albemarle_County_Office_Building.jpg");
+	background-size: cover;
+}
+
+.image-3 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://s3.amazonaws.com/cville/armstrong%2Fimages%2Fmigrated%2F2012620_21163_33.jpeg");
+	background-size: cover;
+}
+
+.image-4 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://www.cvillepedia.org/mediawiki/images/thumb/20120613-Alb-CompPlan.jpg/400px-20120613-Alb-CompPlan.jpg");
+	background-size: cover;
+}
+
+.image-5 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://s3.amazonaws.com/cville/cache%2Fe4%2F22%2Fe42242499be6f526338c6be589e82a94.png");
+	background-size: cover;
+}
+
+.image-6 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://www.farmandranch.com/sites/default/files/images/properties/HiddenStream_FrontDaytime2_640.jpg");
+	background-size: cover;
+}
+
+.image-7 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url('http://s3.amazonaws.com/cville/cache%2Fd8%2F1c%2Fd81c83417aaa5d5ec3c233aab5a66e3d.png');
+	background-size: cover;
+}
+
+.image-8 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://s3.amazonaws.com/cville/cache%2Fae%2F77%2Fae7718fb52cbea5bfdf5f0531ee9c30c.png");
+	background-size: cover;
+}
+
+.image-9 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("https://fourthyearbucketlist.files.wordpress.com/2013/03/dscn2874.jpg");
+	background-size: cover;
+}
+
+.image-10 {
+	position: relative;
+	height: 200px;
+	margin-bottom: 78.281px;
+	background: url("http://www.cvilletomorrow.org/images/ge/2008pieday/20080808-sunflowers3.jpg");
+	background-size: cover;
+}
+
+.image-11 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("http://www.rivannariver.org/wp-content/uploads/2015/02/Rivanna.jpg");
+	background-size: cover;
+}
+
+.image-12 {
+	position: relative;
+	height: 200px;
+	margin-left: 8.3%;
+	background: url("https://www.socaspot.org/wp-content/uploads/2014/07/R38WhiteAction-1.jpg");
+	background-size: cover;
+
+}
+
+.image-text {
+	position: absolute;
+	font-family: "noto sans";
+	font-size: 18px;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-weight: bold;
+	color: white;
+	white-space: nowrap;
+}
+
+.side-ad-1 {
+	padding-bottom: 20px;
+}
+
+.side-ad-2 {
+	padding-bottom: 50px;
+}
+
+.side-ad-3 {
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width: 908px){
+	.alphabet{
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 924px){
+	.topics-area{
+		position: relative;
+		height: 2400px;
+		width: 100%;
+		display: block;
+	}
+
+	.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, 
+	.image-7, .image-8, .image-9, .image-10, .image-11, .image-12{
+		width: 100%;
+		margin: 0;
+	}
+	.sidebar {
+		position: relative;
+		height: 1350px;
+		width: 100%;
+		display: block;
+	}
+	.side-ad-1 {
+		padding-top: 20px;
+		
+	}
+	.side-ad-1, .side-ad-2, .side-ad-3, .side-ad-4 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 1130px){
+	.image-text, .image-text-cville {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 990px){
+	.image-text, .image-text-cville {
+		font-size: 13px;
+	}
+}
+
+/*@media (max-width: 1100px) {
+	.topStory, .calendarSect, .latestNews {
+		height: 525px;
+	}
+	.latestNews, .calendarSect {
+		padding-top: 10px;
+	}
+	.latArticles, .latArticles1 {
+		line-height: 80%;
+	}
+}
+@media (max-width: 920px) {
+	.yellowLine {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 769px) {
+
+}*/
+/*End of Dor's styling*/
+
+/*--------------------------------------------------------------
+## ARTICLES 
+--------------------------------------------------------------*/
+.article-page {
+	width: 70%;
+}
+
+.entry-title {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.entry-content {
+	width: 70%;
+}
+
+
+
+/*--------------------------------------------------------------
+## ARTICLES 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## PAGES 
+--------------------------------------------------------------*/
+
+.page-entry-title {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    border-bottom: #FDB717 dashed 2px;
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+## PAGES 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## SEARCH 
+--------------------------------------------------------------*/
+
+.no-results .page-title{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.page-header .page-title{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.post, .page{
+    border-bottom: #FDB717 dashed 2px;
+}
+
+.entry-footer{
+    margin-bottom: 30px;
+}
+
+.entry-summary p{
+    margin-bottom: 10px;
+}
+
+
+.no-results p{
+    text-align: center;
+}
+
+.page-content .search-form{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.post-content-img{
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.post-content{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .search .page-header h1{
+        font-size: 24pt;
+    }
+
+    .post-content-img{
+        width: 40%;
+        height: 200px;
+    }
+
+    .post-content{
+        width: 60%;
+    }
+
+    .entry-content h1{
+        font-size: 24pt;
+    }
+
+    .entry-title{
+        font-size: 20px;
+    }
+
+    .entry-summary p{
+        font-size: 12pt;
+    }
+    
+}
+
+@media only screen and (max-width: 770px) {
+    .page-content .nav-search-label {
+        font-size: 18px !important;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .entry-header{
+        margin-bottom: 0px;
+    }
+
+    .entry-summary {
+        margin-top: 0px;
+    }
+
+    .entry-summary p{
+        margin-top: 10px;
+    }
+
+    .entry-title{
+        margin-bottom:0px;
+    }
+
+}
+
+@media only screen and (max-width: 402px) {
+
+    .entry-content h1{
+        font-size: 16pt;
+    }
+
+    .entry-title{
+        font-size: 15px;
+    }
+
+    .entry-summary p{
+        font-size: 10pt;
+    }
+
+    .post-content-img{
+        height: 170px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+## SEARCH 
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 ## Nav
@@ -2233,8 +2693,156 @@ input:focus {
     i {
       display: none;
     }
-
+}
+@media (max-width: 726px) {
+	.site-content {
+		padding: 0;
+	}
 }
 /*--------------------------------------------------------------
 ## Nav
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## 404
+--------------------------------------------------------------*/
+.page-title {
+	display: block;
+	font-size: 64px;
+	text-align: center;
+}
+
+.sike-img img{
+	display: block;
+	margin: 0 auto;
+
+}
+
+.page-content p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.page-content span {
+	text-align: center;
+}
+
+.page-content {
+	padding-bottom: 75px;
+}
+
+.nothing-found {
+	font-size: 16px;
+}
+
+.nothing-found a {
+	text-decoration: none;
+}
+
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.rw-sentence{
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.rw-sentence span{
+	color: #444;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: #182E5A;
+}
+
+.rw-words-1 span{
+	font-family: 'noto sans';
+	font-size: 20px;
+	animation: rotateWordsFirst 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+/*--------------------------------------------------------------
+## content-event
+--------------------------------------------------------------*/
+
+.event-img {
+	width: 100%;
+}
+
+.event-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.article-page-event {
+	width: 100%;
+}
+
+.article-page-event h1 {
+	text-align: center;
+}
+
+.entry-title-event {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.entry-content-event {
+	width: 100%;
+}
+
+.entry-content-event p {
+	text-align: center;
+}
+
+.event-info {
+	font-family: 'noto sans';
+	width: 100%;
+	margin: 0 auto;
+}
+
+.event-info p {
+	font-size: 16px;
+	text-align: center;
+	margin: 0;
+}

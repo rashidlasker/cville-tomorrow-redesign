@@ -61,7 +61,11 @@
 	</div><!-- .entry-content -->
 
 	<div class="ads"> 
-		
+		<div class="ad-1"></div>
+		<div class="ad-2"></div>
+		<div class="ad-3"></div>
+
+
 		</div>
 
 </article><!-- #post-<?php the_ID(); ?> -->

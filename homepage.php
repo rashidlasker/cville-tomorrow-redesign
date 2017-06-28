@@ -68,7 +68,7 @@
 						<?php }
 					endwhile; rewind_posts()?>
 				</div>
-				<div class="moreArtBtn"><span class="moreArtText">See More Articles</span></div>
-			</div><!-- Top Story Section --><div class="grid__col topStory"><div class="topHeading">TOP STORY</div><div class="topImg"><?php the_post_thumbnail($recentTop);?></div><div class="topText"><a><?php echo get_the_title($recentTop);?></a></div></div><!-- Calendar Section --><div class="grid__col calendarSect"><span class="calHeading">Calendar</span><hr class="yellowLine line2">This is the calendar section lol</div>
+				<div class="btnContainer"><div class="moreArtBtn"><span class="moreArtText">See More Articles</span></div></div>
+			</div><!-- Top Story Section --><div class="grid__col topStory"><div class="topHeading">TOP STORY</div><div class="topImg"><?php echo get_the_post_thumbnail($recentTop, 'full');?></div><div class="topText"><a><?php echo get_the_title($recentTop);?></a></div></div><!-- Calendar Section --><div class="grid__col calendarSect"><span class="calHeading">Calendar</span><hr class="yellowLine line2">This is the calendar section lol</div>
 		</main>
 	</div>

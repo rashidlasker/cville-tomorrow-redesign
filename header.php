@@ -41,6 +41,12 @@
                 $('.bar').toggleClass('animate');
                 $('.menu-mobile-menu-container').fadeToggle('fast');
             })
+          
+          $(window).resize(function() {
+                if ($( window ).width() > 729){
+                    $('.menu-mobile-menu-container').hide();
+                }
+            });
         }); 
     </script>
 </head>
@@ -77,7 +83,7 @@
                 </div>
             </div>
             <div class="logo">
-                <img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png">
+                <a href="<?php echo home_url();?>"><img src="<?php echo bloginfo('template_url'); ?>/images/newlogo.png"></a>
             </div>
             <div class="top-bar">
                 <h3 class = "nav-date"><?php echo date('l,  F jS, Y'); ?> </h3> 
@@ -85,7 +91,7 @@
                 <div class="weather"></div>
                 <h3>&nbsp&nbsp|&nbsp&nbsp</h3>
                 <button class="sub-button">SUBSCRIBE</button>
-                
+             
             </div>
 
             <div class="bottom-bar">
