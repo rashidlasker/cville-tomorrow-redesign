@@ -950,8 +950,7 @@ a:active {
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-    float: left;
-    width: 50%;
+   display:none;
 }
 
 .comment-navigation .nav-next,
@@ -961,6 +960,8 @@ a:active {
     text-align: right;
     width: 50%;
 }
+
+
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1265,6 +1266,7 @@ figure#attachment_49.wp-caption.alignleft {
 #page{
     max-width: 1150px;
 }
+
 
 
 
