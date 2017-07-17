@@ -1775,8 +1775,8 @@ figure#attachment_49.wp-caption.alignleft {
 .topStory,
 .calendarSect,
 .latestNews {
-    height: 670px;
-    margin: 0;
+/*    height: 670px;*/
+    margin-bottom: 30px;
     text-align: center;
     color: #182E5A;
 }
@@ -1908,7 +1908,7 @@ figure#attachment_49.wp-caption.alignleft {
     position: relative;
     background: #2F86BF;
     border: 1px solid #2F86BF;
-    width: 120px;
+    width: 160px;
     height: 38px;
     transition: all 0.1s ease;
     cursor: pointer;
@@ -1930,7 +1930,7 @@ figure#attachment_49.wp-caption.alignleft {
 }
 
 .ttffAd {
-    width: 71.42%;
+/*    width: 71.42%;*/
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
