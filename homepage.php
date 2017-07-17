@@ -166,6 +166,7 @@
         <!-- Top Story Section -->
         <div class="grid__col topStory">
             <div class="topHeading"><span class="sizing">TOP STORY</span></div>
+            <hr class="yellowLine">
             <a class="topImg">
                 <?php echo get_the_post_thumbnail($recentTop, 'full');?>
             </a>
@@ -174,7 +175,6 @@
                     <?php echo get_the_title($recentTop);?>
                 </a>
             </div>
-            <hr class="yellowLine">
         </div>
         <!-- Calendar Section -->
         <div class="grid__col calendarSect"><span class="calHeading">Calendar</span>
