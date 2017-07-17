@@ -179,7 +179,7 @@
         <div class="grid__col calendarSect"><span class="calHeading">Calendar</span>
             <hr class="yellowLine line2">Calendar section under construction. Thank you for your patience!</div>
         <!-- Ad Side Bar -->
-        <div class="sideAds"><img src="<?php echo bloginfo('template_url'); ?>/pics/spdbAd.jpeg" class="ads"><img src="<?php echo bloginfo('template_url'); ?>/pics/vmdoAd.jpg" class="ads"><img src="<?php echo bloginfo('template_url'); ?>/pics/tree.jpg" class="ads"><img src="<?php echo bloginfo('template_url'); ?>/pics/crozet.jpeg" class="crozet ads"></div>
+<!--        <div class="sideAds"><img src="<?php //echo bloginfo('template_url'); ?>/pics/spdbAd.jpeg" class="ads"><img src="<?php //echo bloginfo('template_url'); ?>/pics/vmdoAd.jpg" class="ads"><img src="<?php //echo bloginfo('template_url'); ?>/pics/tree.jpg" class="ads"><img src="<?php //echo bloginfo('template_url'); ?>/pics/crozet.jpeg" class="crozet ads"></div>-->
 
         <div class="ttffAd"><img src="<?php echo bloginfo('template_url'); ?>/pics/ttffAd.jpg"></div>
 
@@ -317,6 +317,6 @@
                 </div>
             </div>
         </div>
-        <div class="sideBar1"><img src="<?php echo bloginfo('template_url'); ?>/pics/spdbAd.jpeg" class="ads"><img src="<?php echo bloginfo('template_url'); ?>/pics/vmdoAd.jpg" class="ads vmdo"><img src="<?php echo bloginfo('template_url'); ?>/pics/tree.jpg" class="ads"><img src="<?php echo bloginfo('template_url'); ?>/pics/crozet.jpeg" class="crozet ads"></div>
+<!--        <div class="sideBar1"><img src="<?php //echo bloginfo('template_url'); ?>/pics/spdbAd.jpeg" class="ads"><img src="<?php //echo bloginfo('template_url'); ?>/pics/vmdoAd.jpg" class="ads vmdo"><img src="<?php //echo bloginfo('template_url'); ?>/pics/tree.jpg" class="ads"><img src="<?php //echo bloginfo('template_url'); ?>/pics/crozet.jpeg" class="crozet ads"></div>-->
     </main>
 </div>
