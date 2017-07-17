@@ -1500,7 +1500,7 @@ figure#attachment_49.wp-caption.alignleft {
 	padding: 0 5%;
 }*/
 .site-main {
-	font-family: 'Libre-Baskerville';
+	font-family: 'Libre Baskerville';
 }
 .topStory, .calendarSect, .latestNews {
 	height: 670px;
@@ -1548,11 +1548,11 @@ figure#attachment_49.wp-caption.alignleft {
 	line-height: 110%;
 }
 .topText a {
-	color: #182E5A;
+/*	color: #182E5A;*/
 	cursor: pointer;
 }
 .topText a:hover {
-	color: blue;
+/*	color: blue;*/
 }
 .latHeading {
 	font-size: 40px;
@@ -1584,6 +1584,7 @@ figure#attachment_49.wp-caption.alignleft {
 }
 .latTitle a {
 	cursor: pointer;
+    font-family: 'Libre Baskerville';
 }
 .latD-A {
 	color: grey;
@@ -1592,7 +1593,7 @@ figure#attachment_49.wp-caption.alignleft {
 .latContent {
 	font-size: 13.3px;
 	margin: 0;
-	font-family: 'Libre-Baskerville';
+	font-family: 'Noto Sans';
 	line-height: 125%;
 }
 .latArticleList {
