@@ -1515,7 +1515,7 @@ figure#attachment_49.wp-caption.alignleft {
 }
 .topStory {
 	padding: 0;
-	width: 42.87%;
+	width: 42%;
 }
 .calendarSect {
 	padding: 30px 0 0 0;
@@ -1529,7 +1529,7 @@ figure#attachment_49.wp-caption.alignleft {
 	font-size: 48px;
 	font-weight: bold;
 	line-height: 120%;
-	margin-top: 10px;
+    margin-top: 20px;
 	margin-bottom: 22px;
 }
 .sizing {
@@ -3119,7 +3119,7 @@ input:focus {
   }
   .topHeading {
     font-size: 40px;
-    margin-top: 0;
+    margin-top: 6px;
   }
   .topStory, .latestNews {
     height: 600px;
