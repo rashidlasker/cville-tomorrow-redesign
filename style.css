@@ -1931,6 +1931,8 @@ figure#attachment_49.wp-caption.alignleft {
 
 .ttffAd {
 /*    width: 71.42%;*/
+    border-top: 2px solid #FAB20C;
+    padding-top: 30px;
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
@@ -2287,7 +2289,7 @@ figure#attachment_49.wp-caption.alignleft {
     vertical-align: top;
     display: inline-block;
     border-top: 4px solid #FAB20B;
-    height: 500px;
+    margin-bottom: 30px;
 }
 
 .catEducation {
@@ -2321,11 +2323,10 @@ figure#attachment_49.wp-caption.alignleft {
 
 .mmSect {
     position: relative;
-    border-top: 3px solid #979FC1;
-    background-color: #EBEDF4;
+    border-top: 3px solid #182e5a;
+    background-color: rgba(24, 46, 89, 0.19);
     margin-bottom: 30px;
     padding: 0 5px 20px 18px;
-    width: 71.42%;
     height: auto;
 }
 
@@ -2369,7 +2370,7 @@ figure#attachment_49.wp-caption.alignleft {
 .mmBox1:hover,
 .mmBox2:hover,
 .mmBox3:hover {
-    background-color: #CBCEE1;
+    background-color: white;
     cursor: pointer;
 }
 
