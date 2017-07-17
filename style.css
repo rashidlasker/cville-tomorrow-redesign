@@ -822,12 +822,12 @@ textarea {
 a {
     color: #676766;
     text-decoration: none;
-    font-family: "Noto sans";
+/*    font-family: "Noto sans";*/
 }
 
 a:visited {
     text-decoration: none;
-    font-family: "Noto sans";
+/*    font-family: "Noto sans";*/
 	color: #182E5A;
 }
 
@@ -1357,7 +1357,7 @@ figure#attachment_49.wp-caption.alignleft {
 .footer-heading {
 	position: relative;
 	color: white; 
-	font-family: "Libre-Baskerville";
+	font-family: "Libre Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
@@ -1378,7 +1378,7 @@ figure#attachment_49.wp-caption.alignleft {
 .footer-heading2 {
 	position: relative;
 	color: white; 
-	font-family: "Libre-Baskerville";
+	font-family: "Libre Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
@@ -1399,7 +1399,7 @@ figure#attachment_49.wp-caption.alignleft {
 .footer-heading3 {
 	position: relative;
 	color: white; 
-	font-family: "Libre-Baskerville";
+	font-family: "Libre Baskerville";
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
@@ -1692,7 +1692,7 @@ figure#attachment_49.wp-caption.alignleft {
 }
 
 .editor-text p {
-	font-family: 'Libre-Baskerville';
+	font-family: 'Libre Baskerville';
 	font-size: 32px;
 	font-weight: bold;
 	margin: 0;
@@ -1719,7 +1719,7 @@ figure#attachment_49.wp-caption.alignleft {
 }
 
 .ct-all {
-	font-family: 'Libre-Baskerville';
+	font-family: 'Libre Baskerville';
 }
 
 
@@ -2126,7 +2126,7 @@ figure#attachment_49.wp-caption.alignleft {
 .mobContent {
   font-size: 13.3px;
   margin: 0;
-  font-family: 'Libre-Baskerville';
+  font-family: 'Libre Baskerville';
   line-height: 125%;
 }
 .mobPara {
