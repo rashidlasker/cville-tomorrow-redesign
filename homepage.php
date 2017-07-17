@@ -165,8 +165,7 @@
         </div>
         <!-- Top Story Section -->
         <div class="grid__col topStory">
-            <div class="topHeading"><span class="sizing">TOP STORY</span></div>
-            <hr class="yellowLine">
+            <div class="topHeading"><span class="sizing">TOP STORY</span><hr class="yellowLine"></div>
             <a class="topImg">
                 <?php echo get_the_post_thumbnail($recentTop, 'full');?>
             </a>
