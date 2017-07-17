@@ -2278,6 +2278,7 @@ figure#attachment_49.wp-caption.alignleft {
 
 .catPic {
     cursor: pointer;
+    text-align: center;
 }
 
 .categories {
@@ -2296,11 +2297,11 @@ figure#attachment_49.wp-caption.alignleft {
 .catHeading {
     padding: 0;
     font-size: 28px;
+    text-align: center;
 }
 
 .catPara {
-    padding-bottom: 3px;
-    margin-bottom: 15px;
+    padding: 10px 5px;
     border-bottom: 1px solid #FAB20B;
 }
 
