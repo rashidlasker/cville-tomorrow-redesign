@@ -3595,10 +3595,12 @@ input:focus {
     .topText {
         font-size: 30px;
     }
+/*
     .topStory,
     .latestNews {
         height: 625px;
     }
+*/
     .topHeading {
         margin-top: 5px;
     }
@@ -3622,12 +3624,14 @@ input:focus {
     .mmPics {
         transform: translate(50%, -48.5%) scale(1.1);
     }
+/*
     .catSect {
         height: 465px;
     }
     .categories {
         height: 465px;
     }
+*/
     .catTitle {
         font-size: 14px;
     }
@@ -3645,10 +3649,12 @@ input:focus {
         font-size: 40px;
         margin-top: 6px;
     }
+/*
     .topStory,
     .latestNews {
         height: 600px;
     }
+*/
     .latestNews,
     .calendarSect {
         padding-top: 15px;
@@ -3692,19 +3698,23 @@ input:focus {
     .mmPics {
         transform: translate(50%, -48.5%) scale(0.95);
     }
+/*
     .catSect {
         height: 445px;
     }
     .categories {
         height: 445px;
     }
+*/
 }
 
 @media (max-width: 1100px) {
+/*
     .topStory,
     .latestNews {
         height: 550px;
     }
+*/
     .latestNews,
     .calendarSect {
         padding-top: 10px;
@@ -3722,7 +3732,7 @@ input:focus {
     .categories {
         width: 29.3333%;
         margin-right: 6%;
-        height: 435px;
+/*        height: 435px;*/
     }
     .catEducation {
         margin: 0;
@@ -3750,12 +3760,14 @@ input:focus {
     .mmPics {
         transform: translate(48%, -48.5%) scale(0.84);
     }
+/*
     .catSect {
         height: 432px;
     }
     .categories {
         height: 445px;
     }
+*/
     .catHeading {
         font-size: 24.5px;
     }
@@ -3929,9 +3941,11 @@ input:focus {
         width: 25%;
         margin: 0px auto 18px auto;
     }
+/*
     .topStory {
         height: 525px;
     }
+*/
     .topText {
         padding: 0 2%;
     }
