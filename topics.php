@@ -51,10 +51,10 @@
 				</div>
 			</div>
 			<div class="grid__col grid__col--1-of-6 sidebar">
-				<a href='http://crozetrunning.com/'><img class='side-ad-1' src="http://localhost/demo-copy/wp-content/uploads/2017/06/crozet-running.jpeg"></a>
-				<a href='https://www.vmdo.com/'><img class='side-ad-2' src='http://localhost/demo-copy/wp-content/uploads/2017/06/vmdo.jpg'></a>
-				<a href='http://vytc.com/'><img class='side-ad-3' src='http://localhost/demo-copy/wp-content/uploads/2017/06/trees-ad.jpg'></a>
-				<a href='http://www.raggedmountainrunning.com/'><img class='side-ad-4' src='http://localhost/demo-copy/wp-content/uploads/2017/06/ragged.jpg'></a>
+				<a href='http://crozetrunning.com/'><img class='side-ad-1' src="<?php echo bloginfo('template_url'); ?>/topics-images/crozet-running.jpeg"></a>
+				<a href='https://www.vmdo.com/'><img class='side-ad-2' src='<?php echo bloginfo('template_url'); ?>/topics-images/vmdo.jpg'></a>
+				<a href='http://vytc.com/'><img class='side-ad-3' src='<?php echo bloginfo('template_url'); ?>/topics-images/trees-ad.jpg'></a>
+				<a href='http://www.raggedmountainrunning.com/'><img class='side-ad-4' src='<?php echo bloginfo('template_url'); ?>/topics-images/ragged.jpg'></a>
 			</div>
 		</div>
 		</main>
